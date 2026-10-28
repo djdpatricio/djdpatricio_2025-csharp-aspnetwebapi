@@ -130,7 +130,7 @@ Designed for experimentation and foundational training, this project serves as a
    ```bash
    git clone https://github.com/djdpatricio/djdpatricio_2025-csharp-aspnetwebapi.git
    ```
-2. Execute Database Script : [Database Script](https://drive.google.com/file/d/1bL9LIgujCLSs3MZQkQekZy_g3EjnZw7i/view?usp=sharing) 📄
+2. Execute Database Script : [Database Script](https://github.com/djdpatricio/djdpatricio_2025-csharp-aspnetwebapi/releases) (attached to the latest release) 📄
 3. Update the connection string to match your connection details.
   ```json
   "ConnectionStrings": {
