@@ -37,3 +37,5 @@ _ReSharper*/ # Specific ReSharper cache directories
 # Other temporary or generated files
 # If you see them appear, consider adding them
 *.tmp
+# Runtime logs written by Serilog
+**/Logs/
