@@ -8,7 +8,7 @@ public static class SalesManagers
         {
             Id = 3,
             AgentsId = 1,
-            MCOrAgentId = "AGT046",
+            DJDPatricioOrAgentId = "AGT046",
             FirstName = "Angelica",
             MiddleName = "S",
             LastName = "Torres",
@@ -31,7 +31,7 @@ public static class SalesManagers
         {
             Id = 4,
             AgentsId = 1,
-            MCOrAgentId = "AGT047",
+            DJDPatricioOrAgentId = "AGT047",
             FirstName = "Jonathan",
             MiddleName = null,
             LastName = "Reyes",
@@ -55,7 +55,7 @@ public static class SalesManagers
         {
             Id = 5,
             AgentsId = 1,
-            MCOrAgentId = "AGT048",
+            DJDPatricioOrAgentId = "AGT048",
             FirstName = "Beatrice",
             MiddleName = "M",
             LastName = "Delgado",
@@ -78,7 +78,7 @@ public static class SalesManagers
         {
             Id = 6,
             AgentsId = 2,
-            MCOrAgentId = "AGT049",
+            DJDPatricioOrAgentId = "AGT049",
             FirstName = "Ernest",
             MiddleName = "L",
             LastName = "Castillo",
@@ -101,7 +101,7 @@ public static class SalesManagers
         {
             Id = 7,
             AgentsId = 2,
-            MCOrAgentId = "AGT050",
+            DJDPatricioOrAgentId = "AGT050",
             FirstName = "Jessica",
             MiddleName = null,
             LastName = "Flores",
@@ -124,7 +124,7 @@ public static class SalesManagers
         {
             Id = 8,
             AgentsId = 2,
-            MCOrAgentId = "AGT051",
+            DJDPatricioOrAgentId = "AGT051",
             FirstName = "Roland",
             MiddleName = "A",
             LastName = "Navarro",
@@ -147,7 +147,7 @@ public static class SalesManagers
         {
             Id = 9,
             AgentsId = 3,
-            MCOrAgentId = "AGT052",
+            DJDPatricioOrAgentId = "AGT052",
             FirstName = "Sophia",
             MiddleName = "G",
             LastName = "Morales",
@@ -170,7 +170,7 @@ public static class SalesManagers
         {
             Id = 10,
             AgentsId = 3,
-            MCOrAgentId = "AGT053",
+            DJDPatricioOrAgentId = "AGT053",
             FirstName = "Miguel",
             MiddleName = null,
             LastName = "Luna",
@@ -193,7 +193,7 @@ public static class SalesManagers
         {
             Id = 11,
             AgentsId = 3,
-            MCOrAgentId = "AGT054",
+            DJDPatricioOrAgentId = "AGT054",
             FirstName = "Nina",
             MiddleName = "T",
             LastName = "Salvador",
@@ -216,7 +216,7 @@ public static class SalesManagers
         {
             Id = 12,
             AgentsId = 4,
-            MCOrAgentId = "AGT055",
+            DJDPatricioOrAgentId = "AGT055",
             FirstName = "Jason",
             MiddleName = "B",
             LastName = "Dela Cruz",
@@ -239,7 +239,7 @@ public static class SalesManagers
         {
             Id = 13,
             AgentsId = 4,
-            MCOrAgentId = "AGT056",
+            DJDPatricioOrAgentId = "AGT056",
             FirstName = "Rhea",
             MiddleName = null,
             LastName = "Villar",
@@ -262,7 +262,7 @@ public static class SalesManagers
         {
             Id = 14,
             AgentsId = 4,
-            MCOrAgentId = "AGT057",
+            DJDPatricioOrAgentId = "AGT057",
             FirstName = "Daniel",
             MiddleName = "M",
             LastName = "Mendoza",
@@ -285,7 +285,7 @@ public static class SalesManagers
         {
             Id = 15,
             AgentsId = 5,
-            MCOrAgentId = "AGT058",
+            DJDPatricioOrAgentId = "AGT058",
             FirstName = "Camille",
             MiddleName = "R",
             LastName = "Garcia",
@@ -308,7 +308,7 @@ public static class SalesManagers
         {
             Id = 16,
             AgentsId = 5,
-            MCOrAgentId = "AGT059",
+            DJDPatricioOrAgentId = "AGT059",
             FirstName = "Francis",
             MiddleName = null,
             LastName = "Salazar",
@@ -331,7 +331,7 @@ public static class SalesManagers
         {
             Id = 17,
             AgentsId = 5,
-            MCOrAgentId = "AGT060",
+            DJDPatricioOrAgentId = "AGT060",
             FirstName = "Olivia",
             MiddleName = "L",
             LastName = "Castillo",

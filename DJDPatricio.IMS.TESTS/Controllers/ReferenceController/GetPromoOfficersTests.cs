@@ -55,9 +55,9 @@ public class GetPromoOfficersTests
         // Arrange
         SetUserClaims();
         _mockReferenceV1Service.Setup(s => s.GetPromoOfficers(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>(), It.IsAny<long?>(), It.IsAny<long?>(), It.IsAny<CancellationToken>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId, CancellationToken _) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId, CancellationToken _) =>
             {
-                var filteredList = MockData.Reference.PromoOfficers.PromoOfficersList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId) && (agentsId == null || x.AgentsId == agentsId)).ToList();
+                var filteredList = MockData.Reference.PromoOfficers.PromoOfficersList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId) && (agentsId == null || x.AgentsId == agentsId)).ToList();
                 if (mandatoryId == null) return TransactionResult<IEnumerable<PromoOfficers>>.Success(filteredList);
                 {
                     var mandatoryItem = MockData.Reference.PromoOfficers.PromoOfficersList().Where(x => x.Id == mandatoryId).ToList().First();
@@ -84,9 +84,9 @@ public class GetPromoOfficersTests
         // Arrange
         SetUserClaims();
         _mockReferenceV1Service.Setup(s => s.GetPromoOfficers(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>(), It.IsAny<long?>(), It.IsAny<long?>(), It.IsAny<CancellationToken>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId, CancellationToken _) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId, CancellationToken _) =>
             {
-                var filteredList = MockData.Reference.PromoOfficers.PromoOfficersList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId) && (agentsId == null || x.AgentsId == agentsId)).ToList();
+                var filteredList = MockData.Reference.PromoOfficers.PromoOfficersList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId) && (agentsId == null || x.AgentsId == agentsId)).ToList();
                 if (mandatoryId == null) return TransactionResult<IEnumerable<PromoOfficers>>.Success(filteredList);
                 {
                     var mandatoryItem = MockData.Reference.PromoOfficers.PromoOfficersList().Where(x => x.Id == mandatoryId).ToList().First();

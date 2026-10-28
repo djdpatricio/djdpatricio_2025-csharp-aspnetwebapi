@@ -6,7 +6,7 @@ public static class Agents
     [
         new()
         {
-            MCOrAgentId = "AGT1011",
+            DJDPatricioOrAgentId = "AGT1011",
             FirstName = "Monica",
             MiddleName = null,
             LastName = "Reyes",
@@ -28,7 +28,7 @@ public static class Agents
         },
         new()
         {
-            MCOrAgentId = "AGT1012",
+            DJDPatricioOrAgentId = "AGT1012",
             FirstName = "Elijah",
             MiddleName = "M.",
             LastName = "Torres",
@@ -50,7 +50,7 @@ public static class Agents
         },
         new()
         {
-            MCOrAgentId = "AGT1013",
+            DJDPatricioOrAgentId = "AGT1013",
             FirstName = "Angelica",
             MiddleName = null,
             LastName = "Velasco",
@@ -72,7 +72,7 @@ public static class Agents
         },
         new()
         {
-            MCOrAgentId = "AGT1014",
+            DJDPatricioOrAgentId = "AGT1014",
             FirstName = "Ramon",
             MiddleName = "L.",
             LastName = "Castillo",
@@ -94,7 +94,7 @@ public static class Agents
         },
         new()
         {
-            MCOrAgentId = "AGT1015",
+            DJDPatricioOrAgentId = "AGT1015",
             FirstName = "Leah",
             MiddleName = null,
             LastName = "Marquez",

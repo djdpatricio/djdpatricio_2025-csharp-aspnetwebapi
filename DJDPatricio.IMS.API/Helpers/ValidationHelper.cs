@@ -372,7 +372,7 @@ namespace DJDPatricio.IMS.API.Helpers
                                 long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.BizmotoPlatform.Id &&
                                 long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.TagcashPlatform.Id &&
                                 long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.DJDPatricioFromHome.Id &&
-                                long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.MCMicrosite.Id &&
+                                long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.DJDPatricioMicrosite.Id &&
                                 long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.Website24K.Id &&
                                 long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.EDJDPatricioApp.Id &&
                                 long.Parse(propertyInfo.Value!) != StaticDataHelper.Platforms.ETapKiosk.Id &&

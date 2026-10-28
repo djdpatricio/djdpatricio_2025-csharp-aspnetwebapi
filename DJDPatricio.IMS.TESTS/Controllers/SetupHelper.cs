@@ -14,24 +14,24 @@ public static class SetupHelper
 
         // Setup for GetAgents
         result.Setup(s => s.GetAgents(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId) =>
             {
                 var filteredList = MockData.Reference.Agents.AgentsList()
                     .Where(x => (id == null || x.Id == id) &&
                                 (isActiveOnly == null || x.IsActive == isActiveOnly) &&
-                                (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId))
+                                (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId))
                     .ToList();
                 return TransactionResult<IEnumerable<Agents>>.Success(filteredList);
             });
 
         // Setup for GetApprovers
         result.Setup(s => s.GetApprovers(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId) =>
             {
                 var filteredList = MockData.Reference.Approvers.ApproversList()
                     .Where(x => (id == null || x.Id == id) &&
                                 (isActiveOnly == null || x.IsActive == isActiveOnly) &&
-                                (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId))
+                                (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId))
                     .ToList();
                 return TransactionResult<IEnumerable<Approvers>>.Success(filteredList);
             });
@@ -153,12 +153,12 @@ public static class SetupHelper
 
         // Setup for GetPromoManagers
         result.Setup(s => s.GetPromoManagers(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>(), It.IsAny<long?>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId) =>
             {
                 var filteredList = MockData.Reference.PromoManagers.PromoManagersList()
                     .Where(x => (id == null || x.Id == id) &&
                                 (isActiveOnly == null || x.IsActive == isActiveOnly) &&
-                                (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId) &&
+                                (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId) &&
                                 (agentsId == null || x.AgentsId == agentsId))
                     .ToList();
                 return TransactionResult<IEnumerable<PromoManagers>>.Success(filteredList);
@@ -166,12 +166,12 @@ public static class SetupHelper
 
         // Setup for GetPromoOfficers
         result.Setup(s => s.GetPromoOfficers(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>(), It.IsAny<long?>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId) =>
             {
                 var filteredList = MockData.Reference.PromoOfficers.PromoOfficersList()
                     .Where(x => (id == null || x.Id == id) &&
                                 (isActiveOnly == null || x.IsActive == isActiveOnly) &&
-                                (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId) &&
+                                (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId) &&
                                 (agentsId == null || x.AgentsId == agentsId))
                     .ToList();
                 return TransactionResult<IEnumerable<PromoOfficers>>.Success(filteredList);
@@ -190,12 +190,12 @@ public static class SetupHelper
 
         // Setup for GetSalesManagers
         result.Setup(s => s.GetSalesManagers(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>(), It.IsAny<long?>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId) =>
             {
                 var filteredList = MockData.Reference.SalesManagers.SalesManagersList()
                     .Where(x => (id == null || x.Id == id) &&
                                 (isActiveOnly == null || x.IsActive == isActiveOnly) &&
-                                (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId) &&
+                                (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId) &&
                                 (agentsId == null || x.AgentsId == agentsId))
                     .ToList();
                 return TransactionResult<IEnumerable<SalesManagers>>.Success(filteredList);
@@ -215,12 +215,12 @@ public static class SetupHelper
 
         // Setup for GetSubAgents
         result.Setup(s => s.GetSubAgents(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId) =>
             {
                 var filteredList = MockData.Reference.SubAgents.SubAgentsList()
                     .Where(x => (id == null || x.Id == id) &&
                                 (isActiveOnly == null || x.IsActive == isActiveOnly) &&
-                                (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId))
+                                (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId))
                     .ToList();
                 return TransactionResult<IEnumerable<SubAgents>>.Success(filteredList);
             });

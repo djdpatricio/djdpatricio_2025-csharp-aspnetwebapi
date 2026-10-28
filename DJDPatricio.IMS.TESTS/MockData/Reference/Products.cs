@@ -407,7 +407,7 @@ public static class Products
             Name = "MediCash Dengue",
             Description =
                 "Provides cash assistance benefit of 10K if the insured was diagnosed with Dengue. For age 1 to 70.",
-            Code = "MCDEN",
+            Code = "DJDDEN",
             MinimumAge = 1,
             MaximumAge = 70,
             MaximumBookingPerYear = 1,
@@ -425,7 +425,7 @@ public static class Products
             Name = "MediCash Leptospirosis",
             Description =
                 "Provides cash assistance benefit of 10K if the insured was diagnosed with Leptospirosis. For age 1 to 70.",
-            Code = "MCLEP",
+            Code = "DJDLEP",
             MinimumAge = 1,
             MaximumAge = 70,
             MaximumBookingPerYear = 1,
@@ -443,7 +443,7 @@ public static class Products
             Name = "eCTPL",
             Description =
                 "CTPL Insurance provides financial protection against injury and/or death caused by collisions for persons other than the passengers and the driver. Required by the LTO in registration of motor units.",
-            Code = "MCTPL",
+            Code = "DJDTPL",
             MinimumAge = 18,
             MaximumAge = 100,
             MaximumBookingPerYear = 99,
@@ -515,7 +515,7 @@ public static class Products
             Name = "Compre - 4 wheels",
             Description =
                 "AutoCARE is a comprehensive motor car insurance available to vehicles used for private business and leisure. This product is underwritten by Malayan Insurance.",
-            Code = "MC4WH",
+            Code = "DJD4WH",
             MinimumAge = 18,
             MaximumAge = 100,
             MaximumBookingPerYear = 99,
@@ -533,7 +533,7 @@ public static class Products
             Name = "Compre - 2 wheels",
             Description =
                 "MotorCARE is a comprehensive motor car insurance available to 2-wheeled vehicles used for private, business and leisure.",
-            Code = "MC2WH",
+            Code = "DJD2WH",
             MinimumAge = 18,
             MaximumAge = 100,
             MaximumBookingPerYear = 99,
@@ -857,7 +857,7 @@ public static class Products
             Name = "eCTPL",
             Description =
                 "CTPL Ins. provides protection against injury and/or death caused by collisions for persons other than the passengers and the driver. Required by the LTO in registration of motor units. 3 Year Coverage",
-            Code = "MCTP3",
+            Code = "DJDTP3",
             MinimumAge = 18,
             MaximumAge = 70,
             MaximumBookingPerYear = 99,
@@ -1109,7 +1109,7 @@ public static class Products
             Name = "DJDPatricio Driver Care",
             Description =
                 "Covers Acc. Death, Dismemberment, & Disablement, Murder & Unprovoked Assault, Acc. Medical Reimbursement, Acc. Burial Benefit, Daily Hospital Income, and Fire Cash Assistance. For Age 18 to 65",
-            Code = "MCLDC",
+            Code = "DJDLDC",
             MinimumAge = 18,
             MaximumAge = 65,
             MaximumBookingPerYear = 5,
@@ -1127,7 +1127,7 @@ public static class Products
             Name = "DJDPatricio Employee Care",
             Description =
                 "Covers Acc. Death, Dismemberment, & Disablement, Acc. Medical Reimbursement, Acc. Burial Benefit, Murder and Unprovoked Assault, Personal Liability, and Daily Hospital Income. For Age 18 to 65",
-            Code = "MCLEC",
+            Code = "DJDLEC",
             MinimumAge = 18,
             MaximumAge = 65,
             MaximumBookingPerYear = 5,
@@ -2532,7 +2532,7 @@ public static class Products
             ProductCategoryId = 9,
             Name = "Marine Cargo",
             Description = "Provides financial protection against damages regarding transported goods or packages.",
-            Code = "MCRGO",
+            Code = "DJDRGO",
             MinimumAge = 18,
             MaximumAge = 65,
             MaximumBookingPerYear = 999,

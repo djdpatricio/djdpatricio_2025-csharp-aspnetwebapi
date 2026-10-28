@@ -44,7 +44,7 @@ public static class IndividualPolicy
             //Premiums
             BasicPremium = 10,
             BasicPremiumCommission = 20,
-            MCMarkup = 30,
+            DJDPatricioMarkup = 30,
             PartnerMarkup = 40,
             Discount = 130,
             Taxes = 50,
@@ -97,7 +97,7 @@ public static class IndividualPolicy
             //Premiums
             BasicPremium = 10,
             BasicPremiumCommission = 20,
-            MCMarkup = 30,
+            DJDPatricioMarkup = 30,
             PartnerMarkup = 40,
             Discount = 130,
             Taxes = 50,

@@ -55,9 +55,9 @@ public class GetAgentsTests
         // Arrange
         SetUserClaims();
         _mockReferenceV1Service.Setup(s => s.GetAgents(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>(), It.IsAny<long?>(), It.IsAny<CancellationToken>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId, CancellationToken _) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId, CancellationToken _) =>
             {
-                var filteredList = MockData.Reference.Agents.AgentsList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId)).ToList();
+                var filteredList = MockData.Reference.Agents.AgentsList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId)).ToList();
                 if (mandatoryId == null) return TransactionResult<IEnumerable<Agents>>.Success(filteredList);
                 {
                     var mandatoryItem = MockData.Reference.Agents.AgentsList().Where(x => x.Id == mandatoryId).ToList().First();
@@ -84,9 +84,9 @@ public class GetAgentsTests
         // Arrange
         SetUserClaims();
         _mockReferenceV1Service.Setup(s => s.GetAgents(It.IsAny<long?>(), It.IsAny<bool?>(), It.IsAny<string?>(), It.IsAny<long?>(), It.IsAny<CancellationToken>()))
-            .ReturnsAsync((long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId, CancellationToken _) =>
+            .ReturnsAsync((long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId, CancellationToken _) =>
             {
-                var filteredList = MockData.Reference.Agents.AgentsList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (MCOrAgentId == null || x.MCOrAgentId == MCOrAgentId)).ToList();
+                var filteredList = MockData.Reference.Agents.AgentsList().Where(x => (id == null || x.Id == id) && (isActiveOnly == null || x.IsActive == isActiveOnly) && (DJDPatricioOrAgentId == null || x.DJDPatricioOrAgentId == DJDPatricioOrAgentId)).ToList();
                 if (mandatoryId == null) return TransactionResult<IEnumerable<Agents>>.Success(filteredList);
                 {
                     var mandatoryItem = MockData.Reference.Agents.AgentsList().Where(x => x.Id == mandatoryId).ToList().First();

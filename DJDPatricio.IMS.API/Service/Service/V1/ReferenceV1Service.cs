@@ -8,12 +8,12 @@ namespace DJDPatricio.IMS.API.Service.Service.V1;
 
 public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : IReferenceV1Service
 {
-    public async Task<TransactionResult<IEnumerable<Agents>>> GetAgents(long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId, CancellationToken cancellationToken)
+    public async Task<TransactionResult<IEnumerable<Agents>>> GetAgents(long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId, CancellationToken cancellationToken)
     {
         using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         cts.CancelAfter(TimeSpan.FromSeconds(SystemDefaultsConfig.Config.ApiTimeoutInSeconds));
 
-        var result = await referenceV1Repository.GetAgents(id, isActiveOnly, MCOrAgentId);
+        var result = await referenceV1Repository.GetAgents(id, isActiveOnly, DJDPatricioOrAgentId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
         var mandatoryOption = await referenceV1Repository.GetAgents(id, null, null);
@@ -24,12 +24,12 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         return TransactionResult<IEnumerable<Agents>>.Success(newList);
     }
 
-    public async Task<TransactionResult<IEnumerable<Approvers>>> GetApprovers(long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId, CancellationToken cancellationToken)
+    public async Task<TransactionResult<IEnumerable<Approvers>>> GetApprovers(long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId, CancellationToken cancellationToken)
     {
         using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         cts.CancelAfter(TimeSpan.FromSeconds(SystemDefaultsConfig.Config.ApiTimeoutInSeconds));
 
-        var result = await referenceV1Repository.GetApprovers(id, isActiveOnly, MCOrAgentId);
+        var result = await referenceV1Repository.GetApprovers(id, isActiveOnly, DJDPatricioOrAgentId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
         var mandatoryOption = await referenceV1Repository.GetApprovers(id, null, null);
@@ -189,12 +189,12 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         newList.Add(mandatoryOption.Data!.ToList().First());
         return TransactionResult<IEnumerable<Products>>.Success(newList);
     }
-    public async Task<TransactionResult<IEnumerable<PromoManagers>>> GetPromoManagers(long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId, CancellationToken cancellationToken)
+    public async Task<TransactionResult<IEnumerable<PromoManagers>>> GetPromoManagers(long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId, CancellationToken cancellationToken)
     {
         using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         cts.CancelAfter(TimeSpan.FromSeconds(SystemDefaultsConfig.Config.ApiTimeoutInSeconds));
 
-        var result = await referenceV1Repository.GetPromoManagers(id, isActiveOnly, MCOrAgentId, agentsId);
+        var result = await referenceV1Repository.GetPromoManagers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
         var mandatoryOption = await referenceV1Repository.GetPromoManagers(id, null, null, null);
@@ -204,12 +204,12 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         newList.Add(mandatoryOption.Data!.ToList().First());
         return TransactionResult<IEnumerable<PromoManagers>>.Success(newList);
     }
-    public async Task<TransactionResult<IEnumerable<PromoOfficers>>> GetPromoOfficers(long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId, CancellationToken cancellationToken)
+    public async Task<TransactionResult<IEnumerable<PromoOfficers>>> GetPromoOfficers(long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId, CancellationToken cancellationToken)
     {
         using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         cts.CancelAfter(TimeSpan.FromSeconds(SystemDefaultsConfig.Config.ApiTimeoutInSeconds));
 
-        var result = await referenceV1Repository.GetPromoOfficers(id, isActiveOnly, MCOrAgentId, agentsId);
+        var result = await referenceV1Repository.GetPromoOfficers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
         var mandatoryOption = await referenceV1Repository.GetPromoOfficers(id, null, null, null);
@@ -234,12 +234,12 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         newList.Add(mandatoryOption.Data!.ToList().First());
         return TransactionResult<IEnumerable<Providers>>.Success(newList);
     }
-    public async Task<TransactionResult<IEnumerable<SalesManagers>>> GetSalesManagers(long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId, CancellationToken cancellationToken)
+    public async Task<TransactionResult<IEnumerable<SalesManagers>>> GetSalesManagers(long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId, CancellationToken cancellationToken)
     {
         using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         cts.CancelAfter(TimeSpan.FromSeconds(SystemDefaultsConfig.Config.ApiTimeoutInSeconds));
 
-        var result = await referenceV1Repository.GetSalesManagers(id, isActiveOnly, MCOrAgentId, agentsId);
+        var result = await referenceV1Repository.GetSalesManagers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
         var mandatoryOption = await referenceV1Repository.GetSalesManagers(id, null, null, null);
@@ -264,12 +264,12 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         newList.Add(mandatoryOption.Data!.ToList().First());
         return TransactionResult<IEnumerable<SelectionList>>.Success(newList);
     }
-    public async Task<TransactionResult<IEnumerable<SubAgents>>> GetSubAgents(long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId, CancellationToken cancellationToken)
+    public async Task<TransactionResult<IEnumerable<SubAgents>>> GetSubAgents(long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId, CancellationToken cancellationToken)
     {
         using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         cts.CancelAfter(TimeSpan.FromSeconds(SystemDefaultsConfig.Config.ApiTimeoutInSeconds));
 
-        var result = await referenceV1Repository.GetSubAgents(id, isActiveOnly, MCOrAgentId);
+        var result = await referenceV1Repository.GetSubAgents(id, isActiveOnly, DJDPatricioOrAgentId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
         var mandatoryOption = await referenceV1Repository.GetSubAgents(id, null, null);

@@ -898,7 +898,7 @@ public static class Benefits
             Id = 75,
             Name = "Missed Connecting Flights",
             Description = "Missed Connecting Flights",
-            Code = "MCF",
+            Code = "DJDF",
             IsActive = true,
             CreatedBy = null,
             CreatedDateTime = new DateTime(2025, 6, 2, 0, 0, 0),

@@ -379,7 +379,7 @@ public static class StaticDataHelper
             public const string Code = "CFHS";
         }
 
-        public static class MCMicrosite
+        public static class DJDPatricioMicrosite
         {
             public const long Id = 9;
             public const string Name = "DJDPatricio Microsite";

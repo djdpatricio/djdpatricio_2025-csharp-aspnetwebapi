@@ -857,7 +857,7 @@ public static class ProductSummary
         {
             Category = "Health",
             ProductName = "MediCash Dengue",
-            ProductCode = "MCDEN",
+            ProductCode = "DJDDEN",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -869,7 +869,7 @@ public static class ProductSummary
         {
             Category = "Health",
             ProductName = "MediCash Leptospirosis",
-            ProductCode = "MCLEP",
+            ProductCode = "DJDLEP",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -1157,7 +1157,7 @@ public static class ProductSummary
         {
             Category = "Marine",
             ProductName = "Marine Cargo",
-            ProductCode = "MCRGO",
+            ProductCode = "DJDRGO",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -1253,7 +1253,7 @@ public static class ProductSummary
         {
             Category = "Personal",
             ProductName = "DJDPatricio Driver Care",
-            ProductCode = "MCLDC",
+            ProductCode = "DJDLDC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -1265,7 +1265,7 @@ public static class ProductSummary
         {
             Category = "Personal",
             ProductName = "DJDPatricio Employee Care",
-            ProductCode = "MCLEC",
+            ProductCode = "DJDLEC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -1733,7 +1733,7 @@ public static class ProductSummary
         {
             Category = "Vehicle",
             ProductName = "Compre - 2 wheels",
-            ProductCode = "MC2WH",
+            ProductCode = "DJD2WH",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -1769,7 +1769,7 @@ public static class ProductSummary
         {
             Category = "Vehicle",
             ProductName = "Compre - 4 wheels",
-            ProductCode = "MC4WH",
+            ProductCode = "DJD4WH",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -1805,7 +1805,7 @@ public static class ProductSummary
         {
             Category = "Vehicle",
             ProductName = "eCTPL",
-            ProductCode = "MCTPL",
+            ProductCode = "DJDTPL",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,
@@ -1817,7 +1817,7 @@ public static class ProductSummary
         {
             Category = "Vehicle",
             ProductName = "eCTPL",
-            ProductCode = "MCTP3",
+            ProductCode = "DJDTP3",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
             TotalPayments = 0.00m,

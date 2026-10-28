@@ -6,7 +6,7 @@ public static class Approvers
     [
         new()
         {
-            MCOrAgentId = "AGT1006",
+            DJDPatricioOrAgentId = "AGT1006",
             FirstName = "Carlos",
             MiddleName = "Emmanuel",
             LastName = "Mendoza",
@@ -28,7 +28,7 @@ public static class Approvers
         },
         new()
         {
-            MCOrAgentId = "AGT1007",
+            DJDPatricioOrAgentId = "AGT1007",
             FirstName = "Jasmine",
             MiddleName = null,
             LastName = "Flores",
@@ -50,7 +50,7 @@ public static class Approvers
         },
         new()
         {
-            MCOrAgentId = "AGT1008",
+            DJDPatricioOrAgentId = "AGT1008",
             FirstName = "Nathan",
             MiddleName = "Oliver",
             LastName = "Gutierrez",
@@ -72,7 +72,7 @@ public static class Approvers
         },
         new()
         {
-            MCOrAgentId = "AGT1009",
+            DJDPatricioOrAgentId = "AGT1009",
             FirstName = "Patricia",
             MiddleName = "Ysobel",
             LastName = "Del Rosario",
@@ -94,7 +94,7 @@ public static class Approvers
         },
         new()
         {
-            MCOrAgentId = "AGT1010",
+            DJDPatricioOrAgentId = "AGT1010",
             FirstName = "Jericho",
             MiddleName = "Benedict",
             LastName = "Salvador",

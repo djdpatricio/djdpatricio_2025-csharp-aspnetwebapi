@@ -47,7 +47,7 @@ public static class Partners
             Id = 3,
             Name = "Metro Credit Union",
             Description = "Credit union offering loans and savings programs.",
-            Code = "MCU03",
+            Code = "DJDU03",
             ContactPerson = "Elena V. Garcia",
             EmailAddress = "support@metrocreditunion.com",
             ContactNumber = "+639191234569",

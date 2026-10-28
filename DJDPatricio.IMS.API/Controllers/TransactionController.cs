@@ -470,7 +470,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         //Premiums
         new() { Field = () => request.BasicPremium, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.BasicPremiumCommission, Action = ValidationHelper.Action.CheckDecimal },
-        new() { Field = () => request.MCMarkup, Action = ValidationHelper.Action.CheckDecimal },
+        new() { Field = () => request.DJDPatricioMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.PartnerMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Discount, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Taxes, Action = ValidationHelper.Action.CheckDecimal },
@@ -602,7 +602,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         //Premiums
         new() { Field = () => request.BasicPremium, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.BasicPremiumCommission, Action = ValidationHelper.Action.CheckDecimal },
-        new() { Field = () => request.MCMarkup, Action = ValidationHelper.Action.CheckDecimal },
+        new() { Field = () => request.DJDPatricioMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.PartnerMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Discount, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Taxes, Action = ValidationHelper.Action.CheckDecimal },
@@ -960,7 +960,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         //Premiums
         new() { Field = () => request.BasicPremium, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.BasicPremiumCommission, Action = ValidationHelper.Action.CheckDecimal },
-        new() { Field = () => request.MCMarkup, Action = ValidationHelper.Action.CheckDecimal },
+        new() { Field = () => request.DJDPatricioMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.PartnerMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Discount, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Taxes, Action = ValidationHelper.Action.CheckDecimal },
@@ -1080,7 +1080,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         //Premiums
         new() { Field = () => request.BasicPremium, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.BasicPremiumCommission, Action = ValidationHelper.Action.CheckDecimal },
-        new() { Field = () => request.MCMarkup, Action = ValidationHelper.Action.CheckDecimal },
+        new() { Field = () => request.DJDPatricioMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.PartnerMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Discount, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Taxes, Action = ValidationHelper.Action.CheckDecimal },
@@ -1435,7 +1435,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         //Premiums
         new() { Field = () => request.BasicPremium, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.BasicPremiumCommission, Action = ValidationHelper.Action.CheckDecimal },
-        new() { Field = () => request.MCMarkup, Action = ValidationHelper.Action.CheckDecimal },
+        new() { Field = () => request.DJDPatricioMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.PartnerMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Discount, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Taxes, Action = ValidationHelper.Action.CheckDecimal },
@@ -1555,7 +1555,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         //Premiums
         new() { Field = () => request.BasicPremium, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.BasicPremiumCommission, Action = ValidationHelper.Action.CheckDecimal },
-        new() { Field = () => request.MCMarkup, Action = ValidationHelper.Action.CheckDecimal },
+        new() { Field = () => request.DJDPatricioMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.PartnerMarkup, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Discount, Action = ValidationHelper.Action.CheckDecimal },
         new() { Field = () => request.Taxes, Action = ValidationHelper.Action.CheckDecimal },

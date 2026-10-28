@@ -21,7 +21,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status408RequestTimeout)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> GetAgents([FromQuery] long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId)
+    public async Task<IActionResult> GetAgents([FromQuery] long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId)
     {
         if (!HttpContext.User.Identity!.IsAuthenticated)
         {
@@ -35,7 +35,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
             var linkedToken = CancellationTokenSource.CreateLinkedTokenSource(HttpContext.RequestAborted, cts.Token).Token;
 
             // Service call updated to match the new parameter order (CancellationToken is last)
-            var result = await referenceV1Service.GetAgents(id, isActiveOnly, MCOrAgentId, mandatoryId, linkedToken);
+            var result = await referenceV1Service.GetAgents(id, isActiveOnly, DJDPatricioOrAgentId, mandatoryId, linkedToken);
             if (result.IsSuccess)
             {
                 LogHelper.LoInformation(StatusCodes.Status200OK, endpointName, result.Message);
@@ -58,7 +58,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status408RequestTimeout)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> GetApprovers([FromQuery] long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId)
+    public async Task<IActionResult> GetApprovers([FromQuery] long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId)
     {
         if (!HttpContext.User.Identity!.IsAuthenticated)
         {
@@ -72,7 +72,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
             var linkedToken = CancellationTokenSource.CreateLinkedTokenSource(HttpContext.RequestAborted, cts.Token).Token;
 
             // Service call updated to match the new parameter order (CancellationToken is last)
-            var result = await referenceV1Service.GetApprovers(id, isActiveOnly, MCOrAgentId, mandatoryId, linkedToken);
+            var result = await referenceV1Service.GetApprovers(id, isActiveOnly, DJDPatricioOrAgentId, mandatoryId, linkedToken);
             if (result.IsSuccess)
             {
                 LogHelper.LoInformation(StatusCodes.Status200OK, endpointName, result.Message);
@@ -465,7 +465,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status408RequestTimeout)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> GetPromoManagers([FromQuery] long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId)
+    public async Task<IActionResult> GetPromoManagers([FromQuery] long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId)
     {
         if (!HttpContext.User.Identity!.IsAuthenticated)
         {
@@ -479,7 +479,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
             var linkedToken = CancellationTokenSource.CreateLinkedTokenSource(HttpContext.RequestAborted, cts.Token).Token;
 
             // Service call updated to match the new parameter order (CancellationToken is last)
-            var result = await referenceV1Service.GetPromoManagers(id, isActiveOnly, MCOrAgentId, agentsId, mandatoryId, linkedToken);
+            var result = await referenceV1Service.GetPromoManagers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId, mandatoryId, linkedToken);
             if (result.IsSuccess)
             {
                 LogHelper.LoInformation(StatusCodes.Status200OK, endpointName, result.Message);
@@ -502,7 +502,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status408RequestTimeout)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> GetPromoOfficers([FromQuery] long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId)
+    public async Task<IActionResult> GetPromoOfficers([FromQuery] long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId)
     {
         if (!HttpContext.User.Identity!.IsAuthenticated)
         {
@@ -516,7 +516,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
             var linkedToken = CancellationTokenSource.CreateLinkedTokenSource(HttpContext.RequestAborted, cts.Token).Token;
 
             // Service call updated to match the new parameter order (CancellationToken is last)
-            var result = await referenceV1Service.GetPromoOfficers(id, isActiveOnly, MCOrAgentId, agentsId, mandatoryId, linkedToken);
+            var result = await referenceV1Service.GetPromoOfficers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId, mandatoryId, linkedToken);
             if (result.IsSuccess)
             {
                 LogHelper.LoInformation(StatusCodes.Status200OK, endpointName, result.Message);
@@ -576,7 +576,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status408RequestTimeout)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> GetSalesManagers([FromQuery] long? id, bool? isActiveOnly, string? MCOrAgentId, long? agentsId, long? mandatoryId)
+    public async Task<IActionResult> GetSalesManagers([FromQuery] long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? agentsId, long? mandatoryId)
     {
         if (!HttpContext.User.Identity!.IsAuthenticated)
         {
@@ -590,7 +590,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
             var linkedToken = CancellationTokenSource.CreateLinkedTokenSource(HttpContext.RequestAborted, cts.Token).Token;
 
             // Service call updated to match the new parameter order (CancellationToken is last)
-            var result = await referenceV1Service.GetSalesManagers(id, isActiveOnly, MCOrAgentId, agentsId, mandatoryId, linkedToken);
+            var result = await referenceV1Service.GetSalesManagers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId, mandatoryId, linkedToken);
             if (result.IsSuccess)
             {
                 LogHelper.LoInformation(StatusCodes.Status200OK, endpointName, result.Message);
@@ -650,7 +650,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status408RequestTimeout)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<IActionResult> GetSubAgents([FromQuery] long? id, bool? isActiveOnly, string? MCOrAgentId, long? mandatoryId)
+    public async Task<IActionResult> GetSubAgents([FromQuery] long? id, bool? isActiveOnly, string? DJDPatricioOrAgentId, long? mandatoryId)
     {
         if (!HttpContext.User.Identity!.IsAuthenticated)
         {
@@ -664,7 +664,7 @@ public class ReferenceController(IReferenceV1Service referenceV1Service) : Contr
             var linkedToken = CancellationTokenSource.CreateLinkedTokenSource(HttpContext.RequestAborted, cts.Token).Token;
 
             // Service call updated to match the new parameter order (CancellationToken is last)
-            var result = await referenceV1Service.GetSubAgents(id, isActiveOnly, MCOrAgentId, mandatoryId, linkedToken);
+            var result = await referenceV1Service.GetSubAgents(id, isActiveOnly, DJDPatricioOrAgentId, mandatoryId, linkedToken);
             if (result.IsSuccess)
             {
                 LogHelper.LoInformation(StatusCodes.Status200OK, endpointName, result.Message);

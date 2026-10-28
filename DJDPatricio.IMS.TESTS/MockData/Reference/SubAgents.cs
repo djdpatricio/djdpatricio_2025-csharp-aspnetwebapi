@@ -7,7 +7,7 @@ public static class SubAgents
         new()
         {
             Id = 1,
-            MCOrAgentId = "AGT1011",
+            DJDPatricioOrAgentId = "AGT1011",
             FirstName = "Monica",
             MiddleName = null,
             LastName = "Reyes",
@@ -29,7 +29,7 @@ public static class SubAgents
         new()
         {
             Id = 2,
-            MCOrAgentId = "AGT1012",
+            DJDPatricioOrAgentId = "AGT1012",
             FirstName = "Elijah",
             MiddleName = "M.",
             LastName = "Torres",
@@ -51,7 +51,7 @@ public static class SubAgents
         new()
         {
             Id = 3,
-            MCOrAgentId = "AGT1013",
+            DJDPatricioOrAgentId = "AGT1013",
             FirstName = "Angelica",
             MiddleName = null,
             LastName = "Velasco",
@@ -73,7 +73,7 @@ public static class SubAgents
         new()
         {
             Id = 4,
-            MCOrAgentId = "AGT1014",
+            DJDPatricioOrAgentId = "AGT1014",
             FirstName = "Ramon",
             MiddleName = "L.",
             LastName = "Castillo",
@@ -95,7 +95,7 @@ public static class SubAgents
         new()
         {
             Id = 5,
-            MCOrAgentId = "AGT1015",
+            DJDPatricioOrAgentId = "AGT1015",
             FirstName = "Leah",
             MiddleName = null,
             LastName = "Marquez",

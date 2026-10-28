@@ -3,7 +3,7 @@ namespace DJDPatricio.IMS.API.Models.Result.Reference;
 public class PromoManagers : ResultBaseEntity
 {
     public long AgentsId { get; set; }
-    public string MCOrAgentId { get; set; } = string.Empty;
+    public string DJDPatricioOrAgentId { get; set; } = string.Empty;
     public string FirstName { get; set; } = string.Empty;
     public string? MiddleName { get; set; }
     public string LastName { get; set; } = string.Empty;

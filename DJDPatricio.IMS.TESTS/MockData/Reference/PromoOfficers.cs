@@ -8,7 +8,7 @@ public static class PromoOfficers
         {
             Id = 1,
             AgentsId = 1,
-            MCOrAgentId = "AGT1016",
+            DJDPatricioOrAgentId = "AGT1016",
             FirstName = "Evelyn",
             MiddleName = null,
             LastName = "Santos",
@@ -31,7 +31,7 @@ public static class PromoOfficers
         {
             Id = 2,
             AgentsId = 1,
-            MCOrAgentId = "AGT1017",
+            DJDPatricioOrAgentId = "AGT1017",
             FirstName = "Marco",
             MiddleName = "D.",
             LastName = "Lopez",
@@ -54,7 +54,7 @@ public static class PromoOfficers
         {
             Id = 3,
             AgentsId = 1,
-            MCOrAgentId = "AGT1018",
+            DJDPatricioOrAgentId = "AGT1018",
             FirstName = "Diana",
             MiddleName = null,
             LastName = "Morales",
@@ -77,7 +77,7 @@ public static class PromoOfficers
         {
             Id = 4,
             AgentsId = 2,
-            MCOrAgentId = "AGT1019",
+            DJDPatricioOrAgentId = "AGT1019",
             FirstName = "Ricardo",
             MiddleName = "L.",
             LastName = "Garcia",
@@ -100,7 +100,7 @@ public static class PromoOfficers
         {
             Id = 5,
             AgentsId = 2,
-            MCOrAgentId = "AGT1020",
+            DJDPatricioOrAgentId = "AGT1020",
             FirstName = "Nina",
             MiddleName = null,
             LastName = "Villar",
@@ -123,7 +123,7 @@ public static class PromoOfficers
         {
             Id = 6,
             AgentsId = 2,
-            MCOrAgentId = "AGT1021",
+            DJDPatricioOrAgentId = "AGT1021",
             FirstName = "Alfred",
             MiddleName = "G.",
             LastName = "Torres",
@@ -146,7 +146,7 @@ public static class PromoOfficers
         {
             Id = 7,
             AgentsId = 3,
-            MCOrAgentId = "AGT1022",
+            DJDPatricioOrAgentId = "AGT1022",
             FirstName = "Bianca",
             MiddleName = null,
             LastName = "Delgado",
@@ -169,7 +169,7 @@ public static class PromoOfficers
         {
             Id = 8,
             AgentsId = 3,
-            MCOrAgentId = "AGT1023",
+            DJDPatricioOrAgentId = "AGT1023",
             FirstName = "Jorge",
             MiddleName = "M.",
             LastName = "Ramos",
@@ -192,7 +192,7 @@ public static class PromoOfficers
         {
             Id = 9,
             AgentsId = 3,
-            MCOrAgentId = "AGT1024",
+            DJDPatricioOrAgentId = "AGT1024",
             FirstName = "Samantha",
             MiddleName = null,
             LastName = "Ortiz",
@@ -215,7 +215,7 @@ public static class PromoOfficers
         {
             Id = 10,
             AgentsId = 4,
-            MCOrAgentId = "AGT1025",
+            DJDPatricioOrAgentId = "AGT1025",
             FirstName = "Daniel",
             MiddleName = null,
             LastName = "Navarro",
@@ -238,7 +238,7 @@ public static class PromoOfficers
         {
             Id = 11,
             AgentsId = 4,
-            MCOrAgentId = "AGT1026",
+            DJDPatricioOrAgentId = "AGT1026",
             FirstName = "Vanessa",
             MiddleName = "T.",
             LastName = "Salazar",
@@ -261,7 +261,7 @@ public static class PromoOfficers
         {
             Id = 12,
             AgentsId = 4,
-            MCOrAgentId = "AGT1027",
+            DJDPatricioOrAgentId = "AGT1027",
             FirstName = "Emilio",
             MiddleName = null,
             LastName = "Diaz",
@@ -284,7 +284,7 @@ public static class PromoOfficers
         {
             Id = 13,
             AgentsId = 5,
-            MCOrAgentId = "AGT1028",
+            DJDPatricioOrAgentId = "AGT1028",
             FirstName = "Gloria",
             MiddleName = null,
             LastName = "Mendoza",
@@ -307,7 +307,7 @@ public static class PromoOfficers
         {
             Id = 14,
             AgentsId = 5,
-            MCOrAgentId = "AGT1029",
+            DJDPatricioOrAgentId = "AGT1029",
             FirstName = "Hector",
             MiddleName = "J.",
             LastName = "Reyes",
@@ -330,7 +330,7 @@ public static class PromoOfficers
         {
             Id = 15,
             AgentsId = 5,
-            MCOrAgentId = "AGT1030",
+            DJDPatricioOrAgentId = "AGT1030",
             FirstName = "Isabel",
             MiddleName = null,
             LastName = "Torres",
