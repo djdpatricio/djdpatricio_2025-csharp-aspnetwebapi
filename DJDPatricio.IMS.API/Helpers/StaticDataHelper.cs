@@ -72,7 +72,7 @@ public static class StaticDataHelper
         {
             public const long Id = 1;
             public const string Name = "Reported";
-            public const string? Description = "Notice of claim is made through MC branch or direct to MC Claims Team";
+            public const string? Description = "Notice of claim is made through DJDPatricio branch or direct to DJDPatricio Claims Team";
         }
         
         public static class PendingRequirements
@@ -86,7 +86,7 @@ public static class StaticDataHelper
         {
             public const long Id = 3;
             public const string Name = "Processing";
-            public const string? Description = "Client completes submission of claims requirements to MC Claims";
+            public const string? Description = "Client completes submission of claims requirements to DJDPatricio Claims";
         }
 
         public static class ForApprovalSectionHead
@@ -121,7 +121,7 @@ public static class StaticDataHelper
         {
             public const long Id = 8;
             public const string Name = "For Payment Processing";
-            public const string? Description = "Claim is lined up for payment processing of MC/Insurer";
+            public const string? Description = "Claim is lined up for payment processing of DJDPatricio/Insurer";
         }
 
         public static class ReadyForRelease
@@ -142,7 +142,7 @@ public static class StaticDataHelper
         {
             public const long Id = 11;
             public const string Name = "Denied";
-            public const string? Description = "Claim is denied either by MC or Insurer";
+            public const string? Description = "Claim is denied either by DJDPatricio or Insurer";
         }
 
         public static class PendingReimbursement
@@ -163,7 +163,7 @@ public static class StaticDataHelper
         {
             public const long Id = 14;
             public const string Name = "For Ex-Gratia Processing";
-            public const string? Description = "Denied claims that are subject for reconsideration upon submission of recommendation by MC branch personnel";
+            public const string? Description = "Denied claims that are subject for reconsideration upon submission of recommendation by DJDPatricio branch personnel";
         }
 
         public static class ExGratiaForApprovalClaimsDeptHead
@@ -371,10 +371,10 @@ public static class StaticDataHelper
             public const string Code = "TAGP";
         }
 
-        public static class MasterConnoisseursFromHome
+        public static class DJDPatricioFromHome
         {
             public const long Id = 8;
-            public const string Name = "MasterConnoisseurs From Home";
+            public const string Name = "DJDPatricio From Home";
             public const string? Description = null;
             public const string Code = "CFHS";
         }
@@ -382,7 +382,7 @@ public static class StaticDataHelper
         public static class MCMicrosite
         {
             public const long Id = 9;
-            public const string Name = "MC Microsite";
+            public const string Name = "DJDPatricio Microsite";
             public const string? Description = null;
             public const string Code = "CLMS";
         }
@@ -391,15 +391,15 @@ public static class StaticDataHelper
         {
             public const long Id = 10;
             public const string Name = "24K Website";
-            public const string? Description = "MasterConnoisseurs 24K members website";
+            public const string? Description = "DJDPatricio 24K members website";
             public const string Code = "24KW";
         }
 
-        public static class EMasterConnoisseursApp
+        public static class EDJDPatricioApp
         {
             public const long Id = 11;
-            public const string Name = "eMasterConnoisseurs App";
-            public const string? Description = "eMasterConnoisseurs Application";
+            public const string Name = "eDJDPatricio App";
+            public const string? Description = "eDJDPatricio Application";
             public const string Code = "ECEB";
         }
 
@@ -479,7 +479,7 @@ public static class StaticDataHelper
         {
             public const long Id = 21;
             public const string Name = "IVA Platform";
-            public const string? Description = "MasterConnoisseurs Facebook Messenger AI Chatbot";
+            public const string? Description = "DJDPatricio Facebook Messenger AI Chatbot";
             public const string Code = "IVAP";
         }
 
@@ -495,7 +495,7 @@ public static class StaticDataHelper
         {
             public const long Id = 23;
             public const string Name = "ProtectNow";
-            public const string? Description = "MasterConnoisseurs Insurance Platform";
+            public const string? Description = "DJDPatricio Insurance Platform";
             public const string Code = "PNOW";
         }
 
@@ -511,7 +511,7 @@ public static class StaticDataHelper
         {
             public const long Id = 25;
             public const string Name = "Ceb-OnTheGo";
-            public const string? Description = "MasterConnoisseurs On The Go Agent App";
+            public const string? Description = "DJDPatricio On The Go Agent App";
             public const string Code = "COTG";
         }
 

@@ -76,7 +76,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Comprehensive General Liability",
+            ProductName = "DJDPatricio Comprehensive General Liability",
             ProductCode = "CLCGL",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -88,7 +88,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Comprehensive General Liability (100K)",
+            ProductName = "DJDPatricio Comprehensive General Liability (100K)",
             ProductCode = "CGL1K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -100,7 +100,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Comprehensive General Liability (200K)",
+            ProductName = "DJDPatricio Comprehensive General Liability (200K)",
             ProductCode = "CGL2K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -112,7 +112,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Comprehensive General Liability (300K)",
+            ProductName = "DJDPatricio Comprehensive General Liability (300K)",
             ProductCode = "CGL3K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -124,7 +124,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Comprehensive General Liability (400K)",
+            ProductName = "DJDPatricio Comprehensive General Liability (400K)",
             ProductCode = "CGL4K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -136,7 +136,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Comprehensive General Liability (500K)",
+            ProductName = "DJDPatricio Comprehensive General Liability (500K)",
             ProductCode = "CGL5K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -148,7 +148,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Comprehensive General Liability (50K)",
+            ProductName = "DJDPatricio Comprehensive General Liability (50K)",
             ProductCode = "CGL50",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -160,7 +160,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC Fidelity Guarantee",
+            ProductName = "DJDPatricio Fidelity Guarantee",
             ProductCode = "CLFGI",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -172,7 +172,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Business",
-            ProductName = "MC MSPR",
+            ProductName = "DJDPatricio MSPR",
             ProductCode = "CMSPR",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -280,7 +280,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Family",
-            ProductName = "MC Family PA",
+            ProductName = "DJDPatricio Family PA",
             ProductCode = "CLPPK",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -292,7 +292,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Family",
-            ProductName = "MC PamilyaCare Plus",
+            ProductName = "DJDPatricio PamilyaCare Plus",
             ProductCode = "CLPPT",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -304,7 +304,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Health",
-            ProductName = "MC Care",
+            ProductName = "DJDPatricio Care",
             ProductCode = "CLCAR",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -316,7 +316,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Health",
-            ProductName = "MC Health Care",
+            ProductName = "DJDPatricio Health Care",
             ProductCode = "CLHC1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -328,7 +328,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Health",
-            ProductName = "MC Health Care",
+            ProductName = "DJDPatricio Health Care",
             ProductCode = "CLHC2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -340,7 +340,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC Builders Care",
+            ProductName = "DJDPatricio Builders Care",
             ProductCode = "CLBUC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -352,7 +352,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC Nano Insurance",
+            ProductName = "DJDPatricio Nano Insurance",
             ProductCode = "CLNIF",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -364,7 +364,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC PA Basic",
+            ProductName = "DJDPatricio PA Basic",
             ProductCode = "PAB15",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -376,7 +376,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC PA Basic",
+            ProductName = "DJDPatricio PA Basic",
             ProductCode = "CLPAB",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -388,7 +388,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC PA Basic Plus",
+            ProductName = "DJDPatricio PA Basic Plus",
             ProductCode = "PAB20",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -400,7 +400,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC PA Basic Plus",
+            ProductName = "DJDPatricio PA Basic Plus",
             ProductCode = "MPABP",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -412,7 +412,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC PA Prime",
+            ProductName = "DJDPatricio PA Prime",
             ProductCode = "PAPRM",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -424,7 +424,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC PA Prime",
+            ProductName = "DJDPatricio PA Prime",
             ProductCode = "CLPRM",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -436,7 +436,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC PA Prime 6",
+            ProductName = "DJDPatricio PA Prime 6",
             ProductCode = "CLPR6",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -448,7 +448,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC Security Care",
+            ProductName = "DJDPatricio Security Care",
             ProductCode = "CLSEC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -460,7 +460,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC Student Care",
+            ProductName = "DJDPatricio Student Care",
             ProductCode = "CLSUC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -472,7 +472,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC Tanod Care",
+            ProductName = "DJDPatricio Tanod Care",
             ProductCode = "CLTAC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -484,7 +484,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "MC Toda Care",
+            ProductName = "DJDPatricio Toda Care",
             ProductCode = "CLTOC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -496,7 +496,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Group Personal",
-            ProductName = "Free MC PA",
+            ProductName = "Free DJDPatricio PA",
             ProductCode = "ECPABASIC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -532,7 +532,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 100K 1-64yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 100K 1-64yrs",
             ProductCode = "CVPA1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -544,7 +544,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 100K 65-75yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 100K 65-75yrs",
             ProductCode = "CVPA2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -556,7 +556,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 12.5K 1-64yr",
+            ProductName = "DJDPatricio Covid-19 Plus 12.5K 1-64yr",
             ProductCode = "CVPE1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -568,7 +568,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 12.5K 65-75yr",
+            ProductName = "DJDPatricio Covid-19 Plus 12.5K 65-75yr",
             ProductCode = "CVPE2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -580,7 +580,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 200K 1-64yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 200K 1-64yrs",
             ProductCode = "CVPB1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -592,7 +592,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 200K 65-75yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 200K 65-75yrs",
             ProductCode = "CVPB2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -604,7 +604,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 25K 65-75yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 25K 65-75yrs",
             ProductCode = "CVPD2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -616,7 +616,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 25K  1-64yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 25K  1-64yrs",
             ProductCode = "CVPD1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -628,7 +628,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 300K 1-64yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 300K 1-64yrs",
             ProductCode = "CVPC1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -640,7 +640,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Covid-19 Plus 300K 65-75yrs",
+            ProductName = "DJDPatricio Covid-19 Plus 300K 65-75yrs",
             ProductCode = "CVPC2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -652,7 +652,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC ER Care 10K",
+            ProductName = "DJDPatricio ER Care 10K",
             ProductCode = "CLER1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -664,7 +664,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC ER Care 20K",
+            ProductName = "DJDPatricio ER Care 20K",
             ProductCode = "CLER2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -676,7 +676,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC ER Care 5K",
+            ProductName = "DJDPatricio ER Care 5K",
             ProductCode = "CLER5",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -688,7 +688,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Health Dengue",
+            ProductName = "DJDPatricio Health Dengue",
             ProductCode = "CLHDE",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -700,7 +700,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Health Dengue Plus",
+            ProductName = "DJDPatricio Health Dengue Plus",
             ProductCode = "CLHDP",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -712,7 +712,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Health Leptospirosis",
+            ProductName = "DJDPatricio Health Leptospirosis",
             ProductCode = "CLHLE",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -724,7 +724,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Health Max",
+            ProductName = "DJDPatricio Health Max",
             ProductCode = "CLHMX",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -736,7 +736,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC HealthMax",
+            ProductName = "DJDPatricio HealthMax",
             ProductCode = "HMX3K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -748,7 +748,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Med Assist 2",
+            ProductName = "DJDPatricio Med Assist 2",
             ProductCode = "CLMA2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -760,7 +760,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Med Assist 2.5",
+            ProductName = "DJDPatricio Med Assist 2.5",
             ProductCode = "CLMA3",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -772,7 +772,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Med Assist 5",
+            ProductName = "DJDPatricio Med Assist 5",
             ProductCode = "CLMA5",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -784,7 +784,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Mind Care",
+            ProductName = "DJDPatricio Mind Care",
             ProductCode = "CLMTC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -796,7 +796,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Tele Care 10",
+            ProductName = "DJDPatricio Tele Care 10",
             ProductCode = "CLTC1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -808,7 +808,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Tele Care 6",
+            ProductName = "DJDPatricio Tele Care 6",
             ProductCode = "CLTC6",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -820,7 +820,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Health",
-            ProductName = "MC Tele Care Unli",
+            ProductName = "DJDPatricio Tele Care Unli",
             ProductCode = "CLTCU",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -880,7 +880,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Liability",
-            ProductName = "MC Pet Care(Option 1)",
+            ProductName = "DJDPatricio Pet Care(Option 1)",
             ProductCode = "CLPTC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -892,7 +892,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Liability",
-            ProductName = "MC Pet Care(Option 2)",
+            ProductName = "DJDPatricio Pet Care(Option 2)",
             ProductCode = "CLPT2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -904,7 +904,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Liability",
-            ProductName = "MC Pet Care(Option 3)",
+            ProductName = "DJDPatricio Pet Care(Option 3)",
             ProductCode = "CLPT3",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -916,7 +916,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Liability",
-            ProductName = "MC Pet Care(Option 4)",
+            ProductName = "DJDPatricio Pet Care(Option 4)",
             ProductCode = "CLPT4",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -928,7 +928,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Liability",
-            ProductName = "MC Pet Care(Option 5)",
+            ProductName = "DJDPatricio Pet Care(Option 5)",
             ProductCode = "CLPT5",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -940,7 +940,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Liability",
-            ProductName = "MC Pet Protect 50K",
+            ProductName = "DJDPatricio Pet Protect 50K",
             ProductCode = "PETCD",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1096,7 +1096,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Life",
-            ProductName = "MC Abundance 20",
+            ProductName = "DJDPatricio Abundance 20",
             ProductCode = "CLA20",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1108,7 +1108,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Life",
-            ProductName = "MC Abundance 65",
+            ProductName = "DJDPatricio Abundance 65",
             ProductCode = "CLA65",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1144,7 +1144,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Marine",
-            ProductName = "MC Marine Insurance",
+            ProductName = "DJDPatricio Marine Insurance",
             ProductCode = "CLMAR",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1216,7 +1216,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC All Day Care",
+            ProductName = "DJDPatricio All Day Care",
             ProductCode = "CFADC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1228,7 +1228,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC All Day Care",
+            ProductName = "DJDPatricio All Day Care",
             ProductCode = "CLADC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1240,7 +1240,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Bikers Care",
+            ProductName = "DJDPatricio Bikers Care",
             ProductCode = "CLBC1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1252,7 +1252,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Driver Care",
+            ProductName = "DJDPatricio Driver Care",
             ProductCode = "MCLDC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1264,7 +1264,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Employee Care",
+            ProductName = "DJDPatricio Employee Care",
             ProductCode = "MCLEC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1276,7 +1276,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Miners Care",
+            ProductName = "DJDPatricio Miners Care",
             ProductCode = "CLMNC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1288,7 +1288,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Miners ProtectMax",
+            ProductName = "DJDPatricio Miners ProtectMax",
             ProductCode = "CLMP2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1300,7 +1300,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Miners ProtectMax",
+            ProductName = "DJDPatricio Miners ProtectMax",
             ProductCode = "CLMPX",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1312,7 +1312,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Nano Insurance",
+            ProductName = "DJDPatricio Nano Insurance",
             ProductCode = "CLNF6",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1324,7 +1324,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Nano Insurance (5K)",
+            ProductName = "DJDPatricio Nano Insurance (5K)",
             ProductCode = "CLN5K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1336,7 +1336,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Nano Insurance (CebX)",
+            ProductName = "DJDPatricio Nano Insurance (CebX)",
             ProductCode = "CLNCX",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1348,7 +1348,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Nano Plus Insurance",
+            ProductName = "DJDPatricio Nano Plus Insurance",
             ProductCode = "CLNP1",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1360,7 +1360,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC PA Basic",
+            ProductName = "DJDPatricio PA Basic",
             ProductCode = "CLPB2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1372,7 +1372,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Personal Insurance",
+            ProductName = "DJDPatricio Personal Insurance",
             ProductCode = "CLPRA",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1384,7 +1384,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Protect Basic",
+            ProductName = "DJDPatricio Protect Basic",
             ProductCode = "CLPMB",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1396,7 +1396,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC ProtectMax (12 Mos)",
+            ProductName = "DJDPatricio ProtectMax (12 Mos)",
             ProductCode = "CLPMP",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1408,7 +1408,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC ProtectMax (4 Mos)",
+            ProductName = "DJDPatricio ProtectMax (4 Mos)",
             ProductCode = "CLPM2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1420,7 +1420,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC ProtectMax Jr.",
+            ProductName = "DJDPatricio ProtectMax Jr.",
             ProductCode = "CLPMJ",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1432,7 +1432,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Rider Care",
+            ProductName = "DJDPatricio Rider Care",
             ProductCode = "ECRC2",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1444,7 +1444,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Takaful Insurance",
+            ProductName = "DJDPatricio Takaful Insurance",
             ProductCode = "TKFUL",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1456,7 +1456,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "MC Test Product",
+            ProductName = "DJDPatricio Test Product",
             ProductCode = "TSP01",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1468,7 +1468,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Personal",
-            ProductName = "Free MC PA",
+            ProductName = "Free DJDPatricio PA",
             ProductCode = "FRPAB",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1540,7 +1540,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Property",
-            ProductName = "MC Fire Insurance",
+            ProductName = "DJDPatricio Fire Insurance",
             ProductCode = "CLTFI",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1552,7 +1552,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Property",
-            ProductName = "MC Home Care",
+            ProductName = "DJDPatricio Home Care",
             ProductCode = "CLMHM",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1564,7 +1564,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Property",
-            ProductName = "MC Sunog Safe",
+            ProductName = "DJDPatricio Sunog Safe",
             ProductCode = "CLMF3",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1588,7 +1588,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (Domestic)",
+            ProductName = "DJDPatricio Travel Care (Domestic)",
             ProductCode = "FPGDT",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1600,7 +1600,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (Domestic) 100K",
+            ProductName = "DJDPatricio Travel Care (Domestic) 100K",
             ProductCode = "FL100",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1612,7 +1612,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (Domestic) 1M",
+            ProductName = "DJDPatricio Travel Care (Domestic) 1M",
             ProductCode = "FL1MN",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1624,7 +1624,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (Domestic) 500K",
+            ProductName = "DJDPatricio Travel Care (Domestic) 500K",
             ProductCode = "FL500",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1636,7 +1636,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (Domestic) 50K",
+            ProductName = "DJDPatricio Travel Care (Domestic) 50K",
             ProductCode = "FL50K",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1648,7 +1648,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (Domestic) 750K",
+            ProductName = "DJDPatricio Travel Care (Domestic) 750K",
             ProductCode = "FL750",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1660,7 +1660,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (International)",
+            ProductName = "DJDPatricio Travel Care (International)",
             ProductCode = "FPGIT",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1672,7 +1672,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (International) 1M",
+            ProductName = "DJDPatricio Travel Care (International) 1M",
             ProductCode = "FI01M",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1684,7 +1684,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (International) 2.5M",
+            ProductName = "DJDPatricio Travel Care (International) 2.5M",
             ProductCode = "FI25M",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1696,7 +1696,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Travel",
-            ProductName = "MC Travel Care (International) 5M",
+            ProductName = "DJDPatricio Travel Care (International) 5M",
             ProductCode = "FI05M",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1708,7 +1708,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Vehicle",
-            ProductName = "MC Autocare / Motorcare",
+            ProductName = "DJDPatricio Autocare / Motorcare",
             ProductCode = "CLAC",
             TotalBookings = 0,
             TotalPremiums = 0.00m,
@@ -1720,7 +1720,7 @@ public static class ProductSummary
         new ()
         {
             Category = "Vehicle",
-            ProductName = "MC Motor Fleet",
+            ProductName = "DJDPatricio Motor Fleet",
             ProductCode = "CLMFL",
             TotalBookings = 0,
             TotalPremiums = 0.00m,

@@ -249,7 +249,7 @@ public static class Benefits
             Id = 21,
             Name = "Motorcycling Coverage",
             Description = "Motorcycling Coverage",
-            Code = "MC",
+            Code = "DJDPatricio",
             IsActive = true,
             CreatedBy = null,
             CreatedDateTime = new DateTime(2025, 6, 2, 0, 0, 0),

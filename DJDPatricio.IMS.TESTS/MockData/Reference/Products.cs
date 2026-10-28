@@ -26,7 +26,7 @@ public static class Products
         {
             Id = 2,
             ProductCategoryId = 1,
-            Name = "MC PA Basic",
+            Name = "DJDPatricio PA Basic",
             Description =
                 "Provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit. Underwritten by Pioneer Ins. For age 18 to 70.",
             Code = "PAB15",
@@ -44,7 +44,7 @@ public static class Products
         {
             Id = 3,
             ProductCategoryId = 1,
-            Name = "MC PA Basic Plus",
+            Name = "DJDPatricio PA Basic Plus",
             Description =
                 "Provides coverage for Accidental Death, Accidental Dismemberment and/or Disablement Benefit, and Fire Cash Assistance. Underwritten by Pioneer Ins. For Age 18 to 70.",
             Code = "PAB20",
@@ -62,7 +62,7 @@ public static class Products
         {
             Id = 4,
             ProductCategoryId = 1,
-            Name = "MC PA Prime",
+            Name = "DJDPatricio PA Prime",
             Description =
                 "Provides coverage for Acc. Death, Acc. Dismemberment or Disablement, Murder & Unprovoked Assault, Burial Benefit, & Fire Cash Assistance. Underwritten by Pioneer Ins. For Age 7 to 70.",
             Code = "PAPRM",
@@ -80,7 +80,7 @@ public static class Products
         {
             Id = 5,
             ProductCategoryId = 1,
-            Name = "MC PA Basic Plus",
+            Name = "DJDPatricio PA Basic Plus",
             Description =
                 "Provides coverage for Accidental Death, Accidental Dismemberment and/or Disablement Benefit, and Fire Cash Assistance. Underwritten by Malayan Ins. For age 18 to 70.",
             Code = "MPABP",
@@ -98,7 +98,7 @@ public static class Products
         {
             Id = 6,
             ProductCategoryId = 1,
-            Name = "MC PA Basic",
+            Name = "DJDPatricio PA Basic",
             Description =
                 "Provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit. Underwritten by Malayan Ins. For age 18 to 70.",
             Code = "CLPAB",
@@ -116,7 +116,7 @@ public static class Products
         {
             Id = 7,
             ProductCategoryId = 1,
-            Name = "MC PA Prime",
+            Name = "DJDPatricio PA Prime",
             Description =
                 "Provides coverage for Acc. Death, Acc. Dismemberment or Disablement, Murder & Unprovoked Assault, Burial Benefit, & Fire Cash Assistance. Underwritten by Malayan Ins. For Age 7 to 70.",
             Code = "CLPRM",
@@ -152,9 +152,9 @@ public static class Products
         {
             Id = 9,
             ProductCategoryId = 1,
-            Name = "Free MC PA",
+            Name = "Free DJDPatricio PA",
             Description =
-                "Free MC PA is an Ins. that provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit. Free MC PA is a Free Product. For age 18 to 70.",
+                "Free DJDPatricio PA is an Ins. that provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit. Free DJDPatricio PA is a Free Product. For age 18 to 70.",
             Code = "ECPABASIC",
             MinimumAge = 18,
             MaximumAge = 70,
@@ -170,7 +170,7 @@ public static class Products
         {
             Id = 10,
             ProductCategoryId = 3,
-            Name = "MC ER Care 10K",
+            Name = "DJDPatricio ER Care 10K",
             Description =
                 "Covers the medical expenses for eligible emergency condition. Availment can be In/Out Patient in a hospital. For age 0 to 65.",
             Code = "CLER1",
@@ -188,7 +188,7 @@ public static class Products
         {
             Id = 11,
             ProductCategoryId = 3,
-            Name = "MC ER Care 20K",
+            Name = "DJDPatricio ER Care 20K",
             Description =
                 "Covers the medical expenses for eligible emergency condition. Availment can be In/Out Patient in a hospital. For age 0 to 65.",
             Code = "CLER2",
@@ -206,7 +206,7 @@ public static class Products
         {
             Id = 12,
             ProductCategoryId = 3,
-            Name = "MC ER Care 5K",
+            Name = "DJDPatricio ER Care 5K",
             Description =
                 "Covers the medical expenses for eligible emergency condition. Availment can be In/Out Patient in a hospital. For age 0 to 65.",
             Code = "CLER5",
@@ -224,7 +224,7 @@ public static class Products
         {
             Id = 13,
             ProductCategoryId = 3,
-            Name = "MC Health Dengue",
+            Name = "DJDPatricio Health Dengue",
             Description =
                 "Provides cash assistance benefit of 10K if the insured was diagnosed with Dengue. For age 1 to 70.",
             Code = "CLHDE",
@@ -242,7 +242,7 @@ public static class Products
         {
             Id = 14,
             ProductCategoryId = 3,
-            Name = "MC Health Dengue Plus",
+            Name = "DJDPatricio Health Dengue Plus",
             Description =
                 "Provides cash assistance benefit of 10K if the insured was diagnosed with Dengue, plus coverage for accidental death, accidental dismemberment and/or disablement Ins. For age 1 to 70",
             Code = "CLHDP",
@@ -260,7 +260,7 @@ public static class Products
         {
             Id = 15,
             ProductCategoryId = 3,
-            Name = "MC Health Leptospirosis",
+            Name = "DJDPatricio Health Leptospirosis",
             Description =
                 "Provides cash assistance benefit of 10K if the insured was diagnosed with Leptospirosis. For age 1 to 70.",
             Code = "CLHLE",
@@ -278,7 +278,7 @@ public static class Products
         {
             Id = 16,
             ProductCategoryId = 3,
-            Name = "MC Health Max",
+            Name = "DJDPatricio Health Max",
             Description =
                 "Provides coverage ER Care Coverage, Med Assist Coverage, and TeleConsultation calls. For age 1 to 60.",
             Code = "CLHMX",
@@ -296,7 +296,7 @@ public static class Products
         {
             Id = 17,
             ProductCategoryId = 3,
-            Name = "MC Med Assist 2",
+            Name = "DJDPatricio Med Assist 2",
             Description =
                 "Provides medicince reimbursement like vitamins, and prescribed medicine following the discharge from Hospital Confinement. For age 1 to 60.",
             Code = "CLMA2",
@@ -314,7 +314,7 @@ public static class Products
         {
             Id = 18,
             ProductCategoryId = 3,
-            Name = "MC Med Assist 2.5",
+            Name = "DJDPatricio Med Assist 2.5",
             Description =
                 "Provides medicince reimbursement like vitamins, and prescribed medicine following the discharge from Hospital Confinement. For age 1 to 60.",
             Code = "CLMA3",
@@ -332,7 +332,7 @@ public static class Products
         {
             Id = 19,
             ProductCategoryId = 3,
-            Name = "MC Med Assist 5",
+            Name = "DJDPatricio Med Assist 5",
             Description =
                 "Provides medicince reimbursement like vitamins, and prescribed medicine following the discharge from Hospital Confinement. For age 1 to 60.",
             Code = "CLMA5",
@@ -350,7 +350,7 @@ public static class Products
         {
             Id = 20,
             ProductCategoryId = 3,
-            Name = "MC Tele Care 10",
+            Name = "DJDPatricio Tele Care 10",
             Description =
                 "Provides round-the-clock doctor consultation whenever, wherever. The licensed doctors are available 24 hours a day, 7 days a week. For age 1 to 99.",
             Code = "CLTC1",
@@ -368,7 +368,7 @@ public static class Products
         {
             Id = 21,
             ProductCategoryId = 3,
-            Name = "MC Tele Care 6",
+            Name = "DJDPatricio Tele Care 6",
             Description =
                 "Provides round-the-clock doctor consultation whenever, wherever. The licensed doctors are available 24 hours a day, 7 days a week. For age 1 to 99.",
             Code = "CLTC6",
@@ -386,7 +386,7 @@ public static class Products
         {
             Id = 22,
             ProductCategoryId = 3,
-            Name = "MC Tele Care Unli",
+            Name = "DJDPatricio Tele Care Unli",
             Description =
                 "Provides round-the-clock doctor consultation whenever, wherever. The licensed doctors are available 24 hours a day, 7 days a week. For age 1 to 99.",
             Code = "CLTCU",
@@ -550,7 +550,7 @@ public static class Products
             ProductCategoryId = 1,
             Name = "Retail Agents",
             Description =
-                "The Retail Agents Ins. is product specifically designed for the Retail Agents of MasterConnoisseurs Lhuillier. For age 18 to 64.",
+                "The Retail Agents Ins. is product specifically designed for the Retail Agents of DJDPatricio Lhuillier. For age 18 to 64.",
             Code = "PLARA",
             MinimumAge = 18,
             MaximumAge = 64,
@@ -566,7 +566,7 @@ public static class Products
         {
             Id = 32,
             ProductCategoryId = 2,
-            Name = "MC Health Care",
+            Name = "DJDPatricio Health Care",
             Description =
                 "Provides cover to Accidental Death and Disability (AD&D), Double Indemnity, 24/7 Call-a-doc, OP ER One Time use and Daily Hospital Income Benefit. For age 18 to 65.",
             Code = "CLHC1",
@@ -584,7 +584,7 @@ public static class Products
         {
             Id = 33,
             ProductCategoryId = 2,
-            Name = "MC Care",
+            Name = "DJDPatricio Care",
             Description =
                 "Provides cover to Accidental Death and Disability (AD&D), Double Indemnity, Group Yearly Renewable Term Life (GYRT) (Burial Assistance) and Call-a-doc. For age 18 to 65.",
             Code = "CLCAR",
@@ -602,7 +602,7 @@ public static class Products
         {
             Id = 34,
             ProductCategoryId = 1,
-            Name = "MC PA Prime 6",
+            Name = "DJDPatricio PA Prime 6",
             Description =
                 "Provides coverage for Acc. Death, Acc. Dismemberment or Disablement, Murder & Unprovoked Assault, Burial Benefit, & Fire Cash Assistance. Underwritten by Malayan Ins. For Age 7 to 70.",
             Code = "CLPR6",
@@ -620,7 +620,7 @@ public static class Products
         {
             Id = 35,
             ProductCategoryId = 4,
-            Name = "MC Rider Care",
+            Name = "DJDPatricio Rider Care",
             Description =
                 "Provides coverage for Acc. Death, Acc. Dismemberment or Disablement, Burial Benefit, AMR, TeleCare, & DHIB. Underwritten by Generali. For Age 18 to 65.",
             Code = "ECRC2",
@@ -638,7 +638,7 @@ public static class Products
         {
             Id = 36,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 100K 1-64yrs",
+            Name = "DJDPatricio Covid-19 Plus 100K 1-64yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 1 to 64.",
             Code = "CVPA1",
@@ -656,7 +656,7 @@ public static class Products
         {
             Id = 37,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 200K 1-64yrs",
+            Name = "DJDPatricio Covid-19 Plus 200K 1-64yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 1 to 64.",
             Code = "CVPB1",
@@ -674,7 +674,7 @@ public static class Products
         {
             Id = 38,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 300K 1-64yrs",
+            Name = "DJDPatricio Covid-19 Plus 300K 1-64yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 1 to 64.",
             Code = "CVPC1",
@@ -692,7 +692,7 @@ public static class Products
         {
             Id = 39,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 25K  1-64yrs",
+            Name = "DJDPatricio Covid-19 Plus 25K  1-64yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 1 to 64.",
             Code = "CVPD1",
@@ -710,7 +710,7 @@ public static class Products
         {
             Id = 40,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 12.5K 1-64yr",
+            Name = "DJDPatricio Covid-19 Plus 12.5K 1-64yr",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 1 to 64.",
             Code = "CVPE1",
@@ -728,7 +728,7 @@ public static class Products
         {
             Id = 41,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 100K 65-75yrs",
+            Name = "DJDPatricio Covid-19 Plus 100K 65-75yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 65 to 75.",
             Code = "CVPA2",
@@ -746,7 +746,7 @@ public static class Products
         {
             Id = 42,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 200K 65-75yrs",
+            Name = "DJDPatricio Covid-19 Plus 200K 65-75yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 65 to 75.",
             Code = "CVPB2",
@@ -764,7 +764,7 @@ public static class Products
         {
             Id = 43,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 300K 65-75yrs",
+            Name = "DJDPatricio Covid-19 Plus 300K 65-75yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 65 to 75.",
             Code = "CVPC2",
@@ -782,7 +782,7 @@ public static class Products
         {
             Id = 44,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 25K 65-75yrs",
+            Name = "DJDPatricio Covid-19 Plus 25K 65-75yrs",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 65 to 75.",
             Code = "CVPD2",
@@ -800,7 +800,7 @@ public static class Products
         {
             Id = 45,
             ProductCategoryId = 3,
-            Name = "MC Covid-19 Plus 12.5K 65-75yr",
+            Name = "DJDPatricio Covid-19 Plus 12.5K 65-75yr",
             Description =
                 "Provides Coverage for Death due to Accident, Covid-19, Dengue, and Chikungunya, Medical Reimbursement due to accident, and Hospital Income Benefit due to Covid-19. For Age 65 to 75.",
             Code = "CVPE2",
@@ -818,9 +818,9 @@ public static class Products
         {
             Id = 46,
             ProductCategoryId = 4,
-            Name = "Free MC PA",
+            Name = "Free DJDPatricio PA",
             Description =
-                "Free MC PA is an Ins. that provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit. Free MC PA is a Free Product. For age 18 to 70.",
+                "Free DJDPatricio PA is an Ins. that provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit. Free DJDPatricio PA is a Free Product. For age 18 to 70.",
             Code = "FRPAB",
             MinimumAge = 18,
             MaximumAge = 70,
@@ -836,7 +836,7 @@ public static class Products
         {
             Id = 47,
             ProductCategoryId = 8,
-            Name = "MC Pet Care(Option 1)",
+            Name = "DJDPatricio Pet Care(Option 1)",
             Description =
                 "Provides coverage for Dogs Medical Reimbursement, Burial Assistance, Owners Liability, and Personal Accident for the Owner. For Dogs age 6 months to 8 Years.",
             Code = "CLPTC",
@@ -890,7 +890,7 @@ public static class Products
         {
             Id = 50,
             ProductCategoryId = 2,
-            Name = "MC Health Care",
+            Name = "DJDPatricio Health Care",
             Description =
                 "Provides cover to Accidental Death and Disability (AD&D), Double Indemnity, 24/7 Call-a-doc, OP ER One Time use and Daily Hospital Income Benefit. For age 18 to 65.",
             Code = "CLHC2",
@@ -908,7 +908,7 @@ public static class Products
         {
             Id = 51,
             ProductCategoryId = 1,
-            Name = "MC Nano Insurance",
+            Name = "DJDPatricio Nano Insurance",
             Description =
                 "Provides one (1) mont cover for Accidental Death and Disablement, Permanent Disablement/Dismemberment, and Cash Assistance due to Food Poisoning. For Age 18 to 64",
             Code = "CLNIF",
@@ -926,7 +926,7 @@ public static class Products
         {
             Id = 54,
             ProductCategoryId = 4,
-            Name = "MC Nano Insurance",
+            Name = "DJDPatricio Nano Insurance",
             Description =
                 "Provides Six (6) months Cover for Accidental Death and Disablement, Permanent Disablement/Dismemberment. For Age 18 to 64",
             Code = "CLNF6",
@@ -944,7 +944,7 @@ public static class Products
         {
             Id = 55,
             ProductCategoryId = 8,
-            Name = "MC Pet Care(Option 2)",
+            Name = "DJDPatricio Pet Care(Option 2)",
             Description =
                 "Provides coverage for Dogs Medical Reimbursement, Burial Assistance, Owners Liability, and Personal Accident for the Owner. For Dogs age 6 months to 8 Years.",
             Code = "CLPT2",
@@ -962,7 +962,7 @@ public static class Products
         {
             Id = 56,
             ProductCategoryId = 8,
-            Name = "MC Pet Care(Option 3)",
+            Name = "DJDPatricio Pet Care(Option 3)",
             Description =
                 "Provides coverage for Dogs Medical Reimbursement, Burial Assistance, Owners Liability, and Personal Accident for the Owner. For Dogs age 6 months to 8 Years.",
             Code = "CLPT3",
@@ -980,7 +980,7 @@ public static class Products
         {
             Id = 57,
             ProductCategoryId = 8,
-            Name = "MC Pet Care(Option 4)",
+            Name = "DJDPatricio Pet Care(Option 4)",
             Description =
                 "Provides coverage for Dogs Medical Reimbursement, Burial Assistance, Owners Liability, and Personal Accident for the Owner. For Dogs age 6 months to 8 Years.",
             Code = "CLPT4",
@@ -998,7 +998,7 @@ public static class Products
         {
             Id = 58,
             ProductCategoryId = 8,
-            Name = "MC Pet Care(Option 5)",
+            Name = "DJDPatricio Pet Care(Option 5)",
             Description =
                 "Provides coverage for Dogs Medical Reimbursement, Burial Assistance, Owners Liability, and Personal Accident for the Owner. For Dogs age 6 months to 8 Years.",
             Code = "CLPT5",
@@ -1016,7 +1016,7 @@ public static class Products
         {
             Id = 59,
             ProductCategoryId = 4,
-            Name = "MC Bikers Care",
+            Name = "DJDPatricio Bikers Care",
             Description =
                 "Provides coverage for Acc. Death, Acc. Dismemberment or Disablement, Acc. Burial Benefit, AMR, Fire, MUA, Personal Liability & DHIB. Underwritten by BPI/MS. For Age 18 to 65.",
             Code = "CLBC1",
@@ -1034,7 +1034,7 @@ public static class Products
         {
             Id = 60,
             ProductCategoryId = 5,
-            Name = "MC Autocare / Motorcare",
+            Name = "DJDPatricio Autocare / Motorcare",
             Description =
                 "AutoCARE is a comprehensive motor car insurance available to vehicles used for private business and leisure. This product is underwritten by FPG Insurance.",
             Code = "CLAC",
@@ -1052,7 +1052,7 @@ public static class Products
         {
             Id = 61,
             ProductCategoryId = 4,
-            Name = "MC Nano Insurance (5K)",
+            Name = "DJDPatricio Nano Insurance (5K)",
             Description =
                 "Povides Cover for Accidental Death and Disablement, Permanent Disablement/Dismemberment. For Age 18 to 64",
             Code = "CLN5K",
@@ -1070,7 +1070,7 @@ public static class Products
         {
             Id = 62,
             ProductCategoryId = 4,
-            Name = "MC Nano Plus Insurance",
+            Name = "DJDPatricio Nano Plus Insurance",
             Description =
                 "Povides Cover for Accidental Death and Disablement, Permanent Disablement/Dismemberment, Accidental Medical Reimbursement, Accident Burial, Cash Assistance, Fire Cash Assistance. For Age 18 to 64",
             Code = "CLNP1",
@@ -1088,7 +1088,7 @@ public static class Products
         {
             Id = 63,
             ProductCategoryId = 4,
-            Name = "MC Personal Insurance",
+            Name = "DJDPatricio Personal Insurance",
             Description =
                 "Provides Coverage for Accidental Death & Disablement, Death due to Morotcycling, and Burial Cash Assistance due to any causes",
             Code = "CLPRA",
@@ -1106,7 +1106,7 @@ public static class Products
         {
             Id = 64,
             ProductCategoryId = 4,
-            Name = "MC Driver Care",
+            Name = "DJDPatricio Driver Care",
             Description =
                 "Covers Acc. Death, Dismemberment, & Disablement, Murder & Unprovoked Assault, Acc. Medical Reimbursement, Acc. Burial Benefit, Daily Hospital Income, and Fire Cash Assistance. For Age 18 to 65",
             Code = "MCLDC",
@@ -1124,7 +1124,7 @@ public static class Products
         {
             Id = 65,
             ProductCategoryId = 4,
-            Name = "MC Employee Care",
+            Name = "DJDPatricio Employee Care",
             Description =
                 "Covers Acc. Death, Dismemberment, & Disablement, Acc. Medical Reimbursement, Acc. Burial Benefit, Murder and Unprovoked Assault, Personal Liability, and Daily Hospital Income. For Age 18 to 65",
             Code = "MCLEC",
@@ -1195,7 +1195,7 @@ public static class Products
         {
             Id = 69,
             ProductCategoryId = 4,
-            Name = "MC Nano Insurance (CebX)",
+            Name = "DJDPatricio Nano Insurance (CebX)",
             Description =
                 "Povides Cover for Accidental Death and Disablement, Permanent Disablement/Dismemberment. For Age 18 to 64",
             Code = "CLNCX",
@@ -1213,7 +1213,7 @@ public static class Products
         {
             Id = 70,
             ProductCategoryId = 4,
-            Name = "MC ProtectMax Jr.",
+            Name = "DJDPatricio ProtectMax Jr.",
             Description =
                 "Provides Death Benefit coverage, Accidental Death Dismemberment, and Disability, Total Permanent Disability, and Emergency Cash Assistance Benefit",
             Code = "CLPMJ",
@@ -1231,7 +1231,7 @@ public static class Products
         {
             Id = 71,
             ProductCategoryId = 4,
-            Name = "MC PA Basic",
+            Name = "DJDPatricio PA Basic",
             Description =
                 "Provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit. Underwritten by Malayan Ins. For age 18 to 70.",
             Code = "CLPB2",
@@ -1249,7 +1249,7 @@ public static class Products
         {
             Id = 72,
             ProductCategoryId = 4,
-            Name = "MC ProtectMax (12 Mos)",
+            Name = "DJDPatricio ProtectMax (12 Mos)",
             Description =
                 "Provides coverage for Death, Accident/Sickness Emergency Cash Assist, Accidental Dismemberment or Disablement, Murder and Unprovoked Assault and Fire cash assistance. For Age 7 to 70.",
             Code = "CLPMP",
@@ -1267,7 +1267,7 @@ public static class Products
         {
             Id = 73,
             ProductCategoryId = 4,
-            Name = "MC ProtectMax (4 Mos)",
+            Name = "DJDPatricio ProtectMax (4 Mos)",
             Description =
                 "Provides coverage for Death, Accident/Sickness Emergency Cash Assist, Accidental Dismemberment or Disablement, Murder and Unprovoked Assault and Fire cash assistance. For Age 7 to 70.",
             Code = "CLPM2",
@@ -1285,7 +1285,7 @@ public static class Products
         {
             Id = 74,
             ProductCategoryId = 4,
-            Name = "MC All Day Care",
+            Name = "DJDPatricio All Day Care",
             Description =
                 "Provides coverage for Acc. Death, Acc. Dismemberment or Disablement, Murder & Unprovoked Assault, Burial Benefit, Fire Cash Assistance, & TeleHealth. For Age 18 to 65",
             Code = "CLADC",
@@ -1303,7 +1303,7 @@ public static class Products
         {
             Id = 75,
             ProductCategoryId = 3,
-            Name = "MC HealthMax",
+            Name = "DJDPatricio HealthMax",
             Description =
                 "Provides coverage for Basic Hospital Benefit, Critical Care, Surgical, and Emergency Benefit for Viral and Bacterial Illnesses and treatment of injuries resulting from accidents. For age 0 to 65.",
             Code = "HMX3K",
@@ -1321,7 +1321,7 @@ public static class Products
         {
             Id = 76,
             ProductCategoryId = 4,
-            Name = "MC Miners ProtectMax",
+            Name = "DJDPatricio Miners ProtectMax",
             Description =
                 "Provides coverage for Death, Accident/Sickness Emergency Cash Assist, Accidental Dismemberment or Disablement, Murder and Unprovoked Assault and Fire cash assistance for Miners. For Age 18 to 60.",
             Code = "CLMPX",
@@ -1339,7 +1339,7 @@ public static class Products
         {
             Id = 77,
             ProductCategoryId = 4,
-            Name = "MC Miners Care",
+            Name = "DJDPatricio Miners Care",
             Description =
                 "Provides coverage for Accidental Death and Accidental Dismemberment and/or Disablement Benefit for miners. Underwritten by Stronghold Insurance. For age 18 to 60.",
             Code = "CLMNC",
@@ -1573,7 +1573,7 @@ public static class Products
         {
             Id = 90,
             ProductCategoryId = 6,
-            Name = "MC Home Care",
+            Name = "DJDPatricio Home Care",
             Description = "Provides coverage for Fire and other damages done to the property for Owners and Tenants",
             Code = "CLMHM",
             MinimumAge = 18,
@@ -1590,7 +1590,7 @@ public static class Products
         {
             Id = 91,
             ProductCategoryId = 9,
-            Name = "MC Marine Insurance",
+            Name = "DJDPatricio Marine Insurance",
             Description = "Provides financial protection against damages regarding transported goods or packages.",
             Code = "CLMAR",
             MinimumAge = 18,
@@ -1607,7 +1607,7 @@ public static class Products
         {
             Id = 92,
             ProductCategoryId = 10,
-            Name = "MC PamilyaCare Plus",
+            Name = "DJDPatricio PamilyaCare Plus",
             Description = "Provides a 1-year coverage against Accidental Death and Disablement (AD&D).",
             Code = "CLPPT",
             MinimumAge = 18,
@@ -1624,7 +1624,7 @@ public static class Products
         {
             Id = 93,
             ProductCategoryId = 4,
-            Name = "MC Miners ProtectMax",
+            Name = "DJDPatricio Miners ProtectMax",
             Description =
                 "Provides coverage for Death, Accident/Sickness Emergency Cash Assist, Accidental Dismemberment or Disablement, Murder and Unprovoked Assault and Fire cash assistance for Miners. For Age 18 to 60.",
             Code = "CLMP2",
@@ -1642,7 +1642,7 @@ public static class Products
         {
             Id = 94,
             ProductCategoryId = 6,
-            Name = "MC Sunog Safe",
+            Name = "DJDPatricio Sunog Safe",
             Description = "Offers financial aid to cover damages caused by fire or lightning to the insured property.",
             Code = "CLMF3",
             MinimumAge = 18,
@@ -1659,7 +1659,7 @@ public static class Products
         {
             Id = 95,
             ProductCategoryId = 4,
-            Name = "MC Test Product",
+            Name = "DJDPatricio Test Product",
             Description =
                 "Covers Acc. Death, Dismemberment, & Disablement, Acc. Medical Reimbursement, Acc. Burial Benefit, Murder and Unprovoked Assault, Personal Liability, and Daily Hospital Income. For Age 18 to 65",
             Code = "TSP01",
@@ -1767,7 +1767,7 @@ public static class Products
         {
             Id = 101,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (Domestic)",
+            Name = "DJDPatricio Travel Care (Domestic)",
             Description = "Provides coverage to scheduled domestic travels within the Philippines",
             Code = "FPGDT",
             MinimumAge = 0,
@@ -1784,7 +1784,7 @@ public static class Products
         {
             Id = 102,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (Domestic) 50K",
+            Name = "DJDPatricio Travel Care (Domestic) 50K",
             Description = "Provides coverage to scheduled domestic travels within the Philippines",
             Code = "FL50K",
             MinimumAge = 0,
@@ -1801,7 +1801,7 @@ public static class Products
         {
             Id = 103,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (Domestic) 100K",
+            Name = "DJDPatricio Travel Care (Domestic) 100K",
             Description = "Provides coverage to scheduled domestic travels within the Philippines",
             Code = "FL100",
             MinimumAge = 0,
@@ -1818,7 +1818,7 @@ public static class Products
         {
             Id = 104,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (Domestic) 500K",
+            Name = "DJDPatricio Travel Care (Domestic) 500K",
             Description = "Provides coverage to scheduled domestic travels within the Philippines",
             Code = "FL500",
             MinimumAge = 0,
@@ -1835,7 +1835,7 @@ public static class Products
         {
             Id = 105,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (Domestic) 750K",
+            Name = "DJDPatricio Travel Care (Domestic) 750K",
             Description = "Provides coverage to scheduled domestic travels within the Philippines",
             Code = "FL750",
             MinimumAge = 0,
@@ -1852,7 +1852,7 @@ public static class Products
         {
             Id = 106,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (Domestic) 1M",
+            Name = "DJDPatricio Travel Care (Domestic) 1M",
             Description = "Provides coverage to scheduled domestic travels within the Philippines",
             Code = "FL1MN",
             MinimumAge = 0,
@@ -1869,9 +1869,9 @@ public static class Products
         {
             Id = 107,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (International)",
+            Name = "DJDPatricio Travel Care (International)",
             Description =
-                "MC Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
+                "DJDPatricio Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
             Code = "FPGIT",
             MinimumAge = 0,
             MaximumAge = 80,
@@ -1887,9 +1887,9 @@ public static class Products
         {
             Id = 108,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (International) 1M",
+            Name = "DJDPatricio Travel Care (International) 1M",
             Description =
-                "MC Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
+                "DJDPatricio Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
             Code = "FI01M",
             MinimumAge = 0,
             MaximumAge = 80,
@@ -1905,9 +1905,9 @@ public static class Products
         {
             Id = 109,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (International) 2.5M",
+            Name = "DJDPatricio Travel Care (International) 2.5M",
             Description =
-                "MC Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
+                "DJDPatricio Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
             Code = "FI25M",
             MinimumAge = 0,
             MaximumAge = 80,
@@ -1923,9 +1923,9 @@ public static class Products
         {
             Id = 110,
             ProductCategoryId = 11,
-            Name = "MC Travel Care (International) 5M",
+            Name = "DJDPatricio Travel Care (International) 5M",
             Description =
-                "MC Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
+                "DJDPatricio Travel Insurance provides coverage for PA, Medical Reimbursement, Trip Cancellation, Curtailment reimbursement, Lost or Delayed Baggage, Personal Liability, Medical Evacuation and Repatriation.",
             Code = "FI05M",
             MinimumAge = 0,
             MaximumAge = 80,
@@ -1941,7 +1941,7 @@ public static class Products
         {
             Id = 111,
             ProductCategoryId = 4,
-            Name = "MC Protect Basic",
+            Name = "DJDPatricio Protect Basic",
             Description =
                 "Provides Death Benefit coverage, and Accident or Sickness Emergency Cash Assistance. For Age 7 to 70.",
             Code = "CLPMB",
@@ -1977,7 +1977,7 @@ public static class Products
         {
             Id = 113,
             ProductCategoryId = 10,
-            Name = "MC Family PA",
+            Name = "DJDPatricio Family PA",
             Description = "Provides a 1-year coverage against Accidental Death and Disablement (AD&D).",
             Code = "CLPPK",
             MinimumAge = 18,
@@ -1994,7 +1994,7 @@ public static class Products
         {
             Id = 114,
             ProductCategoryId = 3,
-            Name = "MC Mind Care",
+            Name = "DJDPatricio Mind Care",
             Description =
                 "A multiple-use healthcare plan with a coverage up to P20K for ER and Hospitalization due to Accidents, unlimited Mental Health Benefits, and coverage for both Natural and Accidental Death.",
             Code = "CLMTC",
@@ -2012,7 +2012,7 @@ public static class Products
         {
             Id = 115,
             ProductCategoryId = 8,
-            Name = "MC Pet Protect 50K",
+            Name = "DJDPatricio Pet Protect 50K",
             Description =
                 "Provides protection for your pet dogs and cats covering Accidental Death, Accidental Medical Reimbursement, Emergency Medical Assistance, and Accidental Death benefit for the pet owner.",
             Code = "PETCD",
@@ -2226,7 +2226,7 @@ public static class Products
         {
             Id = 127,
             ProductCategoryId = 6,
-            Name = "MC Fire Insurance",
+            Name = "DJDPatricio Fire Insurance",
             Description = "Provides protection to properties against damages/lossess caoused by named perils.",
             Code = "CLTFI",
             MinimumAge = 18,
@@ -2243,7 +2243,7 @@ public static class Products
         {
             Id = 128,
             ProductCategoryId = 7,
-            Name = "MC Fidelity Guarantee",
+            Name = "DJDPatricio Fidelity Guarantee",
             Description =
                 "Covers the employer against the loss of money, loss of stock or property which might result from acts of dishonesty by an employee in the course of employment",
             Code = "CLFGI",
@@ -2261,7 +2261,7 @@ public static class Products
         {
             Id = 129,
             ProductCategoryId = 7,
-            Name = "MC MSPR",
+            Name = "DJDPatricio MSPR",
             Description =
                 "Provides protection to business establishment against loss of money, securities or payrolls due to robbery",
             Code = "CMSPR",
@@ -2279,7 +2279,7 @@ public static class Products
         {
             Id = 130,
             ProductCategoryId = 4,
-            Name = "MC All Day Care",
+            Name = "DJDPatricio All Day Care",
             Description =
                 "Provides coverage for Accidental Death, Accidental Dismemberment or Disablement, Fire Cash Assistance, & TeleHealth. For Age 18 to 65",
             Code = "CFADC",
@@ -2297,7 +2297,7 @@ public static class Products
         {
             Id = 131,
             ProductCategoryId = 14,
-            Name = "MC Abundance 20",
+            Name = "DJDPatricio Abundance 20",
             Description =
                 "Provides financial security and savings with guaranteed cash payouts, maturity benefits, and protection in case of death or terminal illness for 20 years.",
             Code = "CLA20",
@@ -2315,7 +2315,7 @@ public static class Products
         {
             Id = 132,
             ProductCategoryId = 14,
-            Name = "MC Abundance 65",
+            Name = "DJDPatricio Abundance 65",
             Description =
                 "Provides financial security and savings with guaranteed cash payouts, maturity benefits, and protection in case of death or terminal illness until age 65.",
             Code = "CLA65",
@@ -2333,7 +2333,7 @@ public static class Products
         {
             Id = 133,
             ProductCategoryId = 4,
-            Name = "MC Takaful Insurance",
+            Name = "DJDPatricio Takaful Insurance",
             Description =
                 "This Shariah-compliant coverage offers financial security through benefits for Accidental Death, Disability, and daily Hospital Cash Allowance for extended confinement.",
             Code = "TKFUL",
@@ -2351,7 +2351,7 @@ public static class Products
         {
             Id = 134,
             ProductCategoryId = 7,
-            Name = "MC Comprehensive General Liability",
+            Name = "DJDPatricio Comprehensive General Liability",
             Description =
                 "Covers legal Liability against Bodily Injury and Property Damage that may arise due to accident in connection with the assured’s business operation and/or occupancy.",
             Code = "CLCGL",
@@ -2369,7 +2369,7 @@ public static class Products
         {
             Id = 135,
             ProductCategoryId = 7,
-            Name = "MC Comprehensive General Liability (50K)",
+            Name = "DJDPatricio Comprehensive General Liability (50K)",
             Description =
                 "Covers legal Liability against Bodily Injury and Property Damage that may arise due to accident in connection with the assured’s business operation and/or occupancy.",
             Code = "CGL50",
@@ -2387,7 +2387,7 @@ public static class Products
         {
             Id = 136,
             ProductCategoryId = 7,
-            Name = "MC Comprehensive General Liability (100K)",
+            Name = "DJDPatricio Comprehensive General Liability (100K)",
             Description =
                 "Covers legal Liability against Bodily Injury and Property Damage that may arise due to accident in connection with the assured’s business operation and/or occupancy.",
             Code = "CGL1K",
@@ -2405,7 +2405,7 @@ public static class Products
         {
             Id = 137,
             ProductCategoryId = 7,
-            Name = "MC Comprehensive General Liability (200K)",
+            Name = "DJDPatricio Comprehensive General Liability (200K)",
             Description =
                 "Covers legal Liability against Bodily Injury and Property Damage that may arise due to accident in connection with the assured’s business operation and/or occupancy.",
             Code = "CGL2K",
@@ -2423,7 +2423,7 @@ public static class Products
         {
             Id = 138,
             ProductCategoryId = 7,
-            Name = "MC Comprehensive General Liability (300K)",
+            Name = "DJDPatricio Comprehensive General Liability (300K)",
             Description =
                 "Covers legal Liability against Bodily Injury and Property Damage that may arise due to accident in connection with the assured’s business operation and/or occupancy.",
             Code = "CGL3K",
@@ -2441,7 +2441,7 @@ public static class Products
         {
             Id = 139,
             ProductCategoryId = 7,
-            Name = "MC Comprehensive General Liability (400K)",
+            Name = "DJDPatricio Comprehensive General Liability (400K)",
             Description =
                 "Covers legal Liability against Bodily Injury and Property Damage that may arise due to accident in connection with the assured’s business operation and/or occupancy.",
             Code = "CGL4K",
@@ -2459,7 +2459,7 @@ public static class Products
         {
             Id = 140,
             ProductCategoryId = 7,
-            Name = "MC Comprehensive General Liability (500K)",
+            Name = "DJDPatricio Comprehensive General Liability (500K)",
             Description =
                 "Covers legal Liability against Bodily Injury and Property Damage that may arise due to accident in connection with the assured’s business operation and/or occupancy.",
             Code = "CGL5K",
@@ -2547,7 +2547,7 @@ public static class Products
         {
             Id = 145,
             ProductCategoryId = 1,
-            Name = "MC Student Care",
+            Name = "DJDPatricio Student Care",
             Description =
                 "Provides protection protection to a group of people in case of accidents resulting in injury, disability, or death",
             Code = "CLSUC",
@@ -2565,7 +2565,7 @@ public static class Products
         {
             Id = 146,
             ProductCategoryId = 1,
-            Name = "MC Tanod Care",
+            Name = "DJDPatricio Tanod Care",
             Description =
                 "Provides protection to a group of people in case of accidents resulting in injury, disability, or death",
             Code = "CLTAC",
@@ -2583,7 +2583,7 @@ public static class Products
         {
             Id = 147,
             ProductCategoryId = 1,
-            Name = "MC Toda Care",
+            Name = "DJDPatricio Toda Care",
             Description =
                 "Provides protection protection to a group of people in case of accidents resulting in injury, disability, or death",
             Code = "CLTOC",
@@ -2601,7 +2601,7 @@ public static class Products
         {
             Id = 148,
             ProductCategoryId = 1,
-            Name = "MC Security Care",
+            Name = "DJDPatricio Security Care",
             Description =
                 "Provides protection protection to a group of people in case of accidents resulting in injury, disability, or death",
             Code = "CLSEC",
@@ -2619,7 +2619,7 @@ public static class Products
         {
             Id = 149,
             ProductCategoryId = 1,
-            Name = "MC Builders Care",
+            Name = "DJDPatricio Builders Care",
             Description =
                 "Provides protection protection to a group of people in case of accidents resulting in injury, disability, or death",
             Code = "CLBUC",
@@ -2637,7 +2637,7 @@ public static class Products
         {
             Id = 150,
             ProductCategoryId = 5,
-            Name = "MC Motor Fleet",
+            Name = "DJDPatricio Motor Fleet",
             Description = "Provides protection to business vehicles and drivers",
             Code = "CLMFL",
             MinimumAge = 18,

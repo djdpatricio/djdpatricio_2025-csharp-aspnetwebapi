@@ -41,7 +41,7 @@ public class DeleteGroupPolicyTests
             new(ClaimTypes.Name, "John Doe"),
             new(ClaimTypes.Role, "Sales Agent"),
             new(ClaimTypes.Authentication, "http://localhost:7175"),
-            new(ClaimTypes.AuthenticationMethod, "mc.ims.api"),
+            new(ClaimTypes.AuthenticationMethod, "djdpatricio.ims.api"),
             new(ClaimTypes.Expiration, "1893456000")
         };
 

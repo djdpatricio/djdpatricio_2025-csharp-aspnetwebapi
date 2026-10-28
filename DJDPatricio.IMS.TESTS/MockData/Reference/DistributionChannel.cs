@@ -7,8 +7,8 @@ public static class DistributionChannel
         new()
         {
             Id = 1,
-            Name = "Captive - MC Branch",
-            Description = "Insurance Clients directly related to PJLI employees, Owners and sales via MC branches",
+            Name = "Captive - DJDPatricio Branch",
+            Description = "Insurance Clients directly related to PJLI employees, Owners and sales via DJDPatricio branches",
             Code = "CCLB",
             IsActive = true,
             CreatedBy = null,
@@ -19,8 +19,8 @@ public static class DistributionChannel
         new()
         {
             Id = 2,
-            Name = "Captive - MC Digital",
-            Description = "Insurance Clients directly solicited through MasterConnoisseurs Digital Channels",
+            Name = "Captive - DJDPatricio Digital",
+            Description = "Insurance Clients directly solicited through DJDPatricio Digital Channels",
             Code = "CCLD",
             IsActive = true,
             CreatedBy = null,
@@ -31,7 +31,7 @@ public static class DistributionChannel
         new()
         {
             Id = 3,
-            Name = "Captive - MC Affiliates",
+            Name = "Captive - DJDPatricio Affiliates",
             Description = "Insurance Clients directly solicited by affiliated companies of PJLI",
             Code = "CCLA",
             IsActive = true,
@@ -57,7 +57,7 @@ public static class DistributionChannel
         {
             Id = 5,
             Name = "Non-Captive Agents",
-            Description = "Insurance Clients directly solicited by registered agents of MC",
+            Description = "Insurance Clients directly solicited by registered agents of DJDPatricio",
             Code = "NCPA",
             IsActive = true,
             CreatedBy = null,
@@ -94,7 +94,7 @@ public static class DistributionChannel
             Id = 8,
             Name = "ADC2 - Mall Branches",
             Description = null,
-            Code = "MC",
+            Code = "DJDPatricio",
             IsActive = true,
             CreatedBy = null,
             CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
