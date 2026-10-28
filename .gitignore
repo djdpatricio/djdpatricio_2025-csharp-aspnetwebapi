@@ -29,7 +29,7 @@ Logs/ # Directory for logs (capitalized)
 *.txt # Potentially log files
 
 # JetBrains Rider/ReSharper User Settings
-# As seen: DJDPatricio.LaundryShop.sln.DotSettings.user
+# As seen: DJDPatricio.IMS.sln.DotSettings.user
 *.DotSettings.user
 *.resharper.user
 _ReSharper*/ # Specific ReSharper cache directories

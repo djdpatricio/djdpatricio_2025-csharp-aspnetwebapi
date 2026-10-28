@@ -134,7 +134,7 @@ Designed for experimentation and foundational training, this project serves as a
 3. Update the connection string to match your connection details.
   ```json
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=mc_ims;TrustServerCertificate=True;Trusted_Connection=True;"
+    "DefaultConnection": "Server=localhost;Database=djdpatricio_ims;TrustServerCertificate=True;Trusted_Connection=True;"
   },
   ```
 
@@ -142,7 +142,7 @@ Designed for experimentation and foundational training, this project serves as a
 
 ## 🖼️ Gallery
 
-Here are some screenshots of the DJDPatricio Laundry Shop Application in action:
+Here are some screenshots of the DJDPatricio Insurance Management System API in action:
 
 <p>
     <img src="docs/screenshots/system_image_1.png" alt="system_image_1" width="500" />
