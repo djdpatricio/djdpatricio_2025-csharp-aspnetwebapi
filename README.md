@@ -151,7 +151,6 @@ Here are some screenshots of the DJDPatricio Insurance Management System API in 
     <img src="docs/screenshots/system_image_4.png" alt="system_image_4" width="500"/>
     <img src="docs/screenshots/system_image_5.png" alt="system_image_5" width="500"/>
     <img src="docs/screenshots/system_image_6.png" alt="system_image_6" width="500"/>
-    <img src="docs/screenshots/system_image_7.png" alt="system_image_7" width="500"/>
 </p>
 
 
