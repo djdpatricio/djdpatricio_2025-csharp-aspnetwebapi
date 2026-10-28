@@ -145,13 +145,13 @@ Designed for experimentation and foundational training, this project serves as a
 Here are some screenshots of the DJDPatricio Laundry Shop Application in action:
 
 <p>
-    <img src="https://drive.google.com/uc?export=download&id=1AvjtGaZGrjabZKaB-N11x63XmdVwP6G4" alt="system_image_1" width="500" />
-    <img src="https://drive.google.com/uc?export=download&id=1AFOS19xB-GtPjtwqcjdseG8gts5GXdkI" alt="system_image_2" width="500"/>
-    <img src="https://drive.google.com/uc?export=download&id=1uOXVhFWCIssB1Sa4IkzYKfV5xjtyaPeS" alt="system_image_3" width="500" />
-    <img src="https://drive.google.com/uc?export=download&id=1D23hVV_071cLa84xDgJUD0Q0rt0xWkpm" alt="system_image_4" width="500"/>
-    <img src="https://drive.google.com/uc?export=download&id=157hUs6yg-pw5pvoww_z8ObaWpSYi-gvB" alt="system_image_5" width="500"/>
-    <img src="https://drive.google.com/uc?export=download&id=1UPVYeYDfJh_AoU7pvx0sPvsbcNqOQwvr" alt="system_image_6" width="500"/>
-    <img src="https://drive.google.com/uc?export=download&id=1g9_o0HMXUu8ov-ICJbpTxWJbbyL1LNra" alt="system_image_7" width="500"/>
+    <img src="docs/screenshots/system_image_1.png" alt="system_image_1" width="500" />
+    <img src="docs/screenshots/system_image_2.png" alt="system_image_2" width="500"/>
+    <img src="docs/screenshots/system_image_3.png" alt="system_image_3" width="500" />
+    <img src="docs/screenshots/system_image_4.png" alt="system_image_4" width="500"/>
+    <img src="docs/screenshots/system_image_5.png" alt="system_image_5" width="500"/>
+    <img src="docs/screenshots/system_image_6.png" alt="system_image_6" width="500"/>
+    <img src="docs/screenshots/system_image_7.png" alt="system_image_7" width="500"/>
 </p>
 
 
