@@ -2032,7 +2032,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         {
             var user = GlobalFunctionsHelper.GetUser(HttpContext);
             var dynamicRequest = new DynamicObjectWithTypes();
-            dynamicRequest.AddClassPropertiesToDynamicObject(request, dynamicRequest);
+            dynamicRequest.AddProperty("Id", request.Id);
             dynamicRequest.AddProperty("UserId", user.Id);
             dynamicRequest.AddProperty("IsDeleted", true);
 
@@ -2660,7 +2660,7 @@ public class TransactionController(ITransactionV1Service transactionV1Service, I
         {
             var user = GlobalFunctionsHelper.GetUser(HttpContext);
             var dynamicRequest = new DynamicObjectWithTypes();
-            dynamicRequest.AddClassPropertiesToDynamicObject(request, dynamicRequest);
+            dynamicRequest.AddProperty("Id", request.Id);
             dynamicRequest.AddProperty("UserId", user.Id);
             dynamicRequest.AddProperty("IsDeleted", true);
 

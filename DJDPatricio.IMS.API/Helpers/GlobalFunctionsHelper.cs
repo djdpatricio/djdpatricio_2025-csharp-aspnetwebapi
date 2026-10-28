@@ -75,6 +75,6 @@ public static class GlobalFunctionsHelper
     }
     public static string? ToCommaSeparatedString<T>(List<T>? list)
     {
-        return list is not { Count: 0 } ? null : string.Join(",", list);
+        return list is { Count: > 0 } ? string.Join(",", list) : null;
     }
 }

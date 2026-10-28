@@ -16,7 +16,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetAgents(id, isActiveOnly, DJDPatricioOrAgentId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetAgents(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetAgents(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -32,7 +32,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetApprovers(id, isActiveOnly, DJDPatricioOrAgentId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetApprovers(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetApprovers(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -47,7 +47,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetBenefits(id, isActiveOnly);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetBenefits(id, null);
+        var mandatoryOption = await referenceV1Repository.GetBenefits(mandatoryId, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -62,7 +62,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetClients(id, isActiveOnly, insuranceCustomerNo);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetClients(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetClients(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -77,7 +77,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetDeductibles(id, isActiveOnly);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetDeductibles(id, null);
+        var mandatoryOption = await referenceV1Repository.GetDeductibles(mandatoryId, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -92,7 +92,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetDistributionChannel(id, isActiveOnly);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetDistributionChannel(id, null);
+        var mandatoryOption = await referenceV1Repository.GetDistributionChannel(mandatoryId, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -107,7 +107,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetPartners(id, isActiveOnly);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetPartners(id, null);
+        var mandatoryOption = await referenceV1Repository.GetPartners(mandatoryId, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -122,7 +122,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetProductBenefits(id, isActiveOnly, productsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetProductBenefits(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetProductBenefits(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -137,7 +137,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetProductCategory(id, isActiveOnly);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetProductCategory(id, null);
+        var mandatoryOption = await referenceV1Repository.GetProductCategory(mandatoryId, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -152,7 +152,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetProductDeductibles(id, isActiveOnly, productsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetProductDeductibles(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetProductDeductibles(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -167,7 +167,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetProductPremium(id, isActiveOnly, productsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetProductPremium(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetProductPremium(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -182,7 +182,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetProducts(id, isActiveOnly, productCategoryId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetProducts(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetProducts(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -197,7 +197,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetPromoManagers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetPromoManagers(id, null, null, null);
+        var mandatoryOption = await referenceV1Repository.GetPromoManagers(mandatoryId, null, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -212,7 +212,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetPromoOfficers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetPromoOfficers(id, null, null, null);
+        var mandatoryOption = await referenceV1Repository.GetPromoOfficers(mandatoryId, null, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -227,7 +227,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetProviders(id, isActiveOnly);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetProviders(id, null);
+        var mandatoryOption = await referenceV1Repository.GetProviders(mandatoryId, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -242,7 +242,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetSalesManagers(id, isActiveOnly, DJDPatricioOrAgentId, agentsId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetSalesManagers(id, null, null, null);
+        var mandatoryOption = await referenceV1Repository.GetSalesManagers(mandatoryId, null, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -257,7 +257,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetSelectionList(id, isActiveOnly, selectionTypeId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetSelectionList(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetSelectionList(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();
@@ -272,7 +272,7 @@ public class ReferenceV1Service(IReferenceV1Repository referenceV1Repository) : 
         var result = await referenceV1Repository.GetSubAgents(id, isActiveOnly, DJDPatricioOrAgentId);
         if (!result.IsSuccess) return result;
         if (mandatoryId == null) return result;
-        var mandatoryOption = await referenceV1Repository.GetSubAgents(id, null, null);
+        var mandatoryOption = await referenceV1Repository.GetSubAgents(mandatoryId, null, null);
         if (!mandatoryOption.IsSuccess) return mandatoryOption;
         if (mandatoryOption.Data?.Count() == 0) return result;
         var newList = result.Data!.ToList();

@@ -41,6 +41,7 @@ public class Program
         {
             configurationBuilder.AddJsonFile("/run/secrets/appsettings.Production.json", optional: false, reloadOnChange: true);
         }
+        configurationBuilder.AddEnvironmentVariables();
         IConfiguration configuration = configurationBuilder.Build();
         ConnectionStringsConfig.Initialize(configuration);
         AuthenticationConfig.Initialize(configuration);
