@@ -164,6 +164,9 @@ djdpatricio_2025-csharp-aspnetwebapi/
 ├── DJDPatricio.IMS.TESTS/
 │   ├── Controllers/             xUnit tests per controller
 │   └── MockData/                mock data for Dbo, Reference, Static and Transaction
+├── scripts/
+│   ├── run-local.ps1            one command: create the LocalDB database, print a token, run the API
+│   └── new-dev-token.ps1        create a development JWT signed with the local key
 ├── docs/screenshots/            system_image_1.png to system_image_6.png
 ├── LICENSE
 └── README.md
@@ -212,11 +215,31 @@ djdpatricio_2025-csharp-aspnetwebapi/
 2401240e69236d1ef65bf76fa22ad731d8e252d585de3369c5b5545bdf9a6e6d
 ```
 
+> 🎟️ The header, payload and signature above explain the token; they are not a token you can paste. Create a ready-to-use one, signed with the local key and valid for 7 days, with:
+> ```powershell
+> pwsh scripts/new-dev-token.ps1
+> ```
+> Options: `-Days 30`, `-UserId`, `-Name`, `-Role`.
+
 > ⚠️ The signing key (`Authentication:JwtKey` in `appsettings.Development.json`) is for local development only. Replace it with a secret, for example an environment variable or a key vault, before any production use.
 
 ---
 
 ## ▶️ How to Run
+
+### ⚡ Quick start (Windows, one command)
+
+Needs the .NET SDK, Sqlcmd and SQL Server LocalDB (see Requirements).
+
+```powershell
+git clone https://github.com/djdpatricio/djdpatricio_2025-csharp-aspnetwebapi.git
+cd djdpatricio_2025-csharp-aspnetwebapi
+pwsh scripts/run-local.ps1
+```
+
+It creates the `djdpatricio_ims` database on LocalDB if it is missing, prints a token valid for 7 days, starts the API on port 5212 and opens Swagger. In Swagger click **Authorize** and paste the token (without the word `Bearer`). Add `-ResetDatabase` to rebuild the database from scratch, `-Port <n>` for another port, or `-NoBrowser` to skip opening the browser. Stop the API with `Ctrl+C`.
+
+### 🧭 Step by step (any SQL Server)
 
 1. Clone the repo:
    ```bash
@@ -240,7 +263,12 @@ djdpatricio_2025-csharp-aspnetwebapi/
    ```bash
    dotnet run --project DJDPatricio.IMS.API
    ```
-6. Open Swagger at [http://localhost:5212/swagger](http://localhost:5212/swagger), click **Authorize** and paste the default JWT above.
+   On a machine with only a newer .NET SDK, set `DOTNET_ROLL_FORWARD=Major` first.
+6. Open Swagger at [http://localhost:5212/swagger](http://localhost:5212/swagger), click **Authorize** and paste a token from `pwsh scripts/new-dev-token.ps1` (without the word `Bearer`).
+7. Run the unit tests (mock data, no database needed):
+   ```bash
+   dotnet test DJDPatricio.IMS.sln
+   ```
 
 ---
 
