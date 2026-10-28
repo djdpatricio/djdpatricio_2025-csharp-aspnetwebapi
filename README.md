@@ -142,7 +142,7 @@ Designed for experimentation and foundational training, this project serves as a
 
 ## 🖼️ Gallery
 
-Here are some screenshots of the MC Laundry Shop Application in action:
+Here are some screenshots of the DJDPatricio Laundry Shop Application in action:
 
 <p>
     <img src="https://drive.google.com/uc?export=download&id=1AvjtGaZGrjabZKaB-N11x63XmdVwP6G4" alt="system_image_1" width="500" />

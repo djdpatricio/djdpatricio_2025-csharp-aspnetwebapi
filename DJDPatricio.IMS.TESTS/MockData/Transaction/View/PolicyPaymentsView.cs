@@ -1,0 +1,155 @@
+namespace DJDPatricio.IMS.TESTS.MockData.Transaction.View;
+
+public static class PolicyPaymentsView
+{
+    public static IEnumerable<API.Models.Result.Transaction.PolicyPaymentsView> PolicyPaymentsViewList() =>
+    [
+        new()
+        {
+            Id = 1,
+            PolicyId = 1,
+            ReferenceNumber = "IPB000000001",
+            CocNumber = "000000000004",
+            PolicyType = "Individual",
+            Amount = 645.17m,
+            TransactionDateTime = new DateTime(2025, 06, 07, 08, 04, 12, 176).AddTicks(6667),
+            TransactionCheckNo = "CHK12345",
+            TransactionOrigin = "Online",
+            NotificationDateTime = new DateTime(2025, 06, 01, 08, 04, 12, 176).AddTicks(6667),
+            PaymentMethodTitle = "Cash",
+            Notes = null,
+            PolicyTypeId = 1,
+            PaymentMethod = 27,
+            CreatedBy = 500329,
+            CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
+            ModifiedBy = 500329,
+            ModifiedDateTime = new DateTime(2025, 06, 02, 0, 0, 0)
+        },
+        new()
+        {
+            Id = 2,
+            PolicyId = 2,
+            ReferenceNumber = "IPB000000002",
+            CocNumber = "000000000005",
+            PolicyType = "Individual",
+            Amount = 645.17m,
+            TransactionDateTime = new DateTime(2025, 06, 07, 08, 04, 12, 176).AddTicks(6667),
+            TransactionCheckNo = "CHK12346",
+            TransactionOrigin = "Branch",
+            NotificationDateTime = new DateTime(2025, 06, 12, 08, 04, 12, 176).AddTicks(6667),
+            PaymentMethodTitle = "Credit Card",
+            Notes = "Cash payment received",
+            PolicyTypeId = 1,
+            PaymentMethod = 28,
+            CreatedBy = 500329,
+            CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
+            ModifiedBy = 500329,
+            ModifiedDateTime = new DateTime(2025, 06, 02, 0, 0, 0)
+        },
+        new()
+        {
+            Id = 3,
+            PolicyId = 1,
+            ReferenceNumber = "PPB000000001",
+            CocNumber = "000000000006",
+            PolicyType = "Partner",
+            Amount = 645.17m,
+            TransactionDateTime = new DateTime(2025, 06, 07, 08, 04, 12, 176).AddTicks(6667),
+            TransactionCheckNo = "CHK12347",
+            TransactionOrigin = "Agent",
+            NotificationDateTime = new DateTime(2025, 05, 26, 08, 04, 12, 176).AddTicks(6667),
+            PaymentMethodTitle = "Debit Card",
+            Notes = null,
+            PolicyTypeId = 2,
+            PaymentMethod = 29,
+            CreatedBy = 500329,
+            CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
+            ModifiedBy = 500329,
+            ModifiedDateTime = new DateTime(2025, 06, 02, 0, 0, 0)
+        },
+        new()
+        {
+            Id = 4,
+            PolicyId = 2,
+            ReferenceNumber = "PPB000000002",
+            CocNumber = "000000000007",
+            PolicyType = "Partner",
+            Amount = 645.17m,
+            TransactionDateTime = new DateTime(2025, 06, 07, 08, 04, 12, 176).AddTicks(6667),
+            TransactionCheckNo = "CHK12348",
+            TransactionOrigin = "Online",
+            NotificationDateTime = new DateTime(2025, 06, 20, 08, 04, 12, 176).AddTicks(6667),
+            PaymentMethodTitle = "Bank Transfer",
+            Notes = "Via mobile app",
+            PolicyTypeId = 2,
+            PaymentMethod = 30,
+            CreatedBy = 500329,
+            CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
+            ModifiedBy = 500329,
+            ModifiedDateTime = new DateTime(2025, 06, 02, 0, 0, 0)
+        },
+        new()
+        {
+            Id = 5,
+            PolicyId = 8,
+            ReferenceNumber = "GPB000000001",
+            CocNumber = "000000000001",
+            PolicyType = "Group",
+            Amount = 645.17m,
+            TransactionDateTime = new DateTime(2025, 06, 07, 08, 04, 12, 176).AddTicks(6667),
+            TransactionCheckNo = "CHK12349",
+            TransactionOrigin = "Branch",
+            NotificationDateTime = new DateTime(2025, 06, 11, 08, 04, 12, 176).AddTicks(6667),
+            PaymentMethodTitle = "Mobile Payment",
+            Notes = null,
+            PolicyTypeId = 3,
+            PaymentMethod = 31,
+            CreatedBy = 500329,
+            CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
+            ModifiedBy = 500329,
+            ModifiedDateTime = new DateTime(2025, 06, 02, 0, 0, 0)
+        },
+        new()
+        {
+            Id = 6,
+            PolicyId = 9,
+            ReferenceNumber = "GPB000000002",
+            CocNumber = "000000000002",
+            PolicyType = "Group",
+            Amount = 645.17m,
+            TransactionDateTime = new DateTime(2025, 06, 07, 08, 04, 12, 176).AddTicks(6667),
+            TransactionCheckNo = "CHK12350",
+            TransactionOrigin = "CallCenter",
+            NotificationDateTime = new DateTime(2025, 06, 01, 08, 04, 12, 176).AddTicks(6667),
+            PaymentMethodTitle = "Online Payment Gateway",
+            Notes = "Phone payment",
+            PolicyTypeId = 3,
+            PaymentMethod = 32,
+            CreatedBy = 500329,
+            CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
+            ModifiedBy = 500329,
+            ModifiedDateTime = new DateTime(2025, 06, 02, 0, 0, 0)
+        },
+        new()
+        {
+            Id = 7,
+            PolicyId = 10,
+            ReferenceNumber = "GPB000000003",
+            CocNumber = "000000000003",
+            PolicyType = "Group",
+            Amount = 645.17m,
+            TransactionDateTime = new DateTime(2025, 06, 07, 08, 04, 12, 176).AddTicks(6667),
+            TransactionCheckNo = "CHK12351",
+            TransactionOrigin = "Online",
+            NotificationDateTime = new DateTime(2025, 06, 20, 08, 04, 12, 176).AddTicks(6667),
+            PaymentMethodTitle = "E-Wallet",
+            Notes = "Autopay successful",
+            PolicyTypeId = 3,
+            PaymentMethod = 33,
+            CreatedBy = 500329,
+            CreatedDateTime = new DateTime(2025, 06, 02, 0, 0, 0),
+            ModifiedBy = 500329,
+            ModifiedDateTime = new DateTime(2025, 06, 02, 0, 0, 0)
+        }
+    ];
+}
