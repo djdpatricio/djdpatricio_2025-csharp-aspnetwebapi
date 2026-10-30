@@ -138,9 +138,11 @@ The endpoints are grouped into four versioned controllers: `dbo` (dashboards), `
 The full database script is [`Database/djdpatricio_ims.sql`](Database/djdpatricio_ims.sql), and it is also attached to the [v1.0 release](https://github.com/djdpatricio/djdpatricio_2025-csharp-aspnetwebapi/releases).
 
 - Targets SQL Server 2019 or later, or Azure SQL Database. All audit timestamps are UTC.
-- Builds 41 tables in the `Static`, `Reference`, `Transaction` and `dbo` schemas, with 101 foreign keys, 26 unique constraints, 48 indexes, 9 views, 9 functions, 4 sequences and 59 stored procedures.
-- Seeds every unit test mock row, plus generated demo data: Philippine regions, cities and barangays, 300+ clients, agents and managers, 50 partners, 35 providers, 152 products and about 500 policy bookings over the last three years, so the dashboards have data.
-- Safe to re-run: existing tables and rows are kept, and programmable objects are recreated.
+- This is the original database the API was built against, scripted from its July 2025 backup and renamed to DJDPatricio.
+- Builds 42 tables in the `Static`, `Reference` and `Transaction` schemas, with 85 foreign keys, 72 defaults, 8 views in `dbo`, 1 function and 62 stored procedures.
+- Seeds the sample data: Philippine address reference data (1,634 cities and 42,048 towns), clients, agents and managers, 20 partners, 20 providers, 152 products and a few bookings with their benefits, deductibles, payments and attachments. It takes a few minutes to run.
+- Run it once on an empty server. To start over, drop `djdpatricio_ims` and run it again (`run-local.ps1 -ResetDatabase` does both).
+- Verified on SQL Server 2022 in Docker and on LocalDB: all 44 GET endpoints return data and the 332 tests pass.
 
 ---
 
@@ -249,6 +251,11 @@ It creates the `djdpatricio_ims` database on LocalDB if it is missing, prints a 
 2. Execute the database script: [Database Script](Database/djdpatricio_ims.sql) 📄 (also attached to the [v1.0 release](https://github.com/djdpatricio/djdpatricio_2025-csharp-aspnetwebapi/releases)). With LocalDB:
    ```bash
    sqlcmd -S "(localdb)\MSSQLLocalDB" -E -b -I -i Database\djdpatricio_ims.sql
+   ```
+   With SQL Server in Docker:
+   ```bash
+   docker run -d --name ims-sql -e ACCEPT_EULA=Y -e "MSSQL_SA_PASSWORD=<YourStrong!Passw0rd>" -p 1433:1433 mcr.microsoft.com/mssql/server:2022-latest
+   sqlcmd -S localhost,1433 -U sa -P "<YourStrong!Passw0rd>" -C -b -I -i Database/djdpatricio_ims.sql
    ```
    Or open the script in SSMS or Azure Data Studio and run it.
 3. On a hosted database (Azure SQL), create the empty database first, then run the script without the block marked `SKIP ON A HOSTED DATABASE` at the top.
