@@ -168,7 +168,7 @@ djdpatricio_2025-csharp-aspnetwebapi/
 │   └── MockData/                mock data for Dbo, Reference, Static and Transaction
 ├── scripts/
 │   ├── run-local.ps1            one command: create the LocalDB database, print a token, run the API
-│   └── new-dev-token.ps1        create a development JWT signed with the local key
+│   └── new-dev-token.ps1        create a development JWT signed with your local key (user secrets)
 ├── docs/screenshots/            system_image_1.png to system_image_6.png
 ├── LICENSE
 └── README.md
@@ -213,21 +213,34 @@ djdpatricio_2025-csharp-aspnetwebapi/
 ### ✍️ Signature
 
 ```
-83afd726d5595c1eb62f0e5c839f52581b6ad0d13e4c6087ca8b764ab2c8409b
-2401240e69236d1ef65bf76fa22ad731d8e252d585de3369c5b5545bdf9a6e6d
+HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), Authentication:JwtKey)
 ```
 
-> 🎟️ The header, payload and signature above explain the token; they are not a token you can paste. Create a ready-to-use one, signed with the local key and valid for 7 days, with:
+> 🎟️ The header, payload and signature above explain the token; they are not a token you can paste. The signing key is not in the repo; set your own first (see [Set the signing key](#-set-the-signing-key)). Then create a ready-to-use token, signed with your key and valid for 7 days, with:
 > ```powershell
 > pwsh scripts/new-dev-token.ps1
 > ```
 > Options: `-Days 30`, `-UserId`, `-Name`, `-Role`.
 
-> ⚠️ The signing key (`Authentication:JwtKey` in `appsettings.Development.json`) is for local development only. Replace it with a secret, for example an environment variable or a key vault, before any production use.
+> ⚠️ `Authentication:JwtKey` is empty in `appsettings.Development.json` on purpose. The API reads it from user secrets or the `Authentication__JwtKey` environment variable and refuses to start when it is missing or shorter than 32 bytes. Use a secret store, for example a key vault, in production.
 
 ---
 
 ## ▶️ How to Run
+
+### 🔐 Set the signing key
+
+Do this once per machine, before either way of running below. It generates a fresh random 64-byte key and stores it in the API's user secrets, outside the repo:
+
+```powershell
+dotnet user-secrets set "Authentication:JwtKey" ([Convert]::ToHexString([Security.Cryptography.RandomNumberGenerator]::GetBytes(64))) --project DJDPatricio.IMS.API
+```
+
+Instead of user secrets you can set the environment variable `Authentication__JwtKey`, which overrides them. The API and `scripts/new-dev-token.ps1` read the key from the same places. Mint a development token signed with it:
+
+```powershell
+pwsh scripts/new-dev-token.ps1
+```
 
 ### ⚡ Quick start (Windows, one command)
 
@@ -236,6 +249,7 @@ Needs the .NET SDK, Sqlcmd and SQL Server LocalDB (see Requirements).
 ```powershell
 git clone https://github.com/djdpatricio/djdpatricio_2025-csharp-aspnetwebapi.git
 cd djdpatricio_2025-csharp-aspnetwebapi
+dotnet user-secrets set "Authentication:JwtKey" ([Convert]::ToHexString([Security.Cryptography.RandomNumberGenerator]::GetBytes(64))) --project DJDPatricio.IMS.API
 pwsh scripts/run-local.ps1
 ```
 
@@ -266,13 +280,17 @@ It creates the `djdpatricio_ims` database on LocalDB if it is missing, prints a 
    },
    ```
    or with the environment variable `ConnectionStrings__DefaultConnection`, which overrides `appsettings`.
-5. Run the API:
+5. Set the signing key (see [Set the signing key](#-set-the-signing-key)):
+   ```powershell
+   dotnet user-secrets set "Authentication:JwtKey" ([Convert]::ToHexString([Security.Cryptography.RandomNumberGenerator]::GetBytes(64))) --project DJDPatricio.IMS.API
+   ```
+6. Run the API:
    ```bash
    dotnet run --project DJDPatricio.IMS.API
    ```
    On a machine with only a newer .NET SDK, set `DOTNET_ROLL_FORWARD=Major` first.
-6. Open Swagger at [http://localhost:5212/swagger](http://localhost:5212/swagger), click **Authorize** and paste a token from `pwsh scripts/new-dev-token.ps1` (without the word `Bearer`).
-7. Run the unit tests (mock data, no database needed):
+7. Open Swagger at [http://localhost:5212/swagger](http://localhost:5212/swagger), click **Authorize** and paste a token from `pwsh scripts/new-dev-token.ps1` (without the word `Bearer`).
+8. Run the unit tests (mock data, no database needed):
    ```bash
    dotnet test DJDPatricio.IMS.sln
    ```

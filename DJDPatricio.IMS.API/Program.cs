@@ -36,6 +36,7 @@ public class Program
         if (builder.Environment.IsDevelopment())
         {
             configurationBuilder.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true);
+            configurationBuilder.AddUserSecrets<Program>(optional: true);
         }
         else
         {
@@ -45,6 +46,10 @@ public class Program
         IConfiguration configuration = configurationBuilder.Build();
         ConnectionStringsConfig.Initialize(configuration);
         AuthenticationConfig.Initialize(configuration);
+        if (Encoding.UTF8.GetByteCount(AuthenticationConfig.Config.JwtKey) < 32)
+        {
+            throw new InvalidOperationException("Authentication:JwtKey is missing or shorter than 32 bytes. Set it with dotnet user-secrets or the Authentication__JwtKey environment variable, see README How to Run.");
+        }
         SystemDefaultsConfig.Initialize(configuration);
         CorsOriginConfig.Initialize(configuration);
 
